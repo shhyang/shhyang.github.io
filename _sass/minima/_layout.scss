@@ -80,7 +80,7 @@
       margin-left: 20px;
     }
 
-    &:hover .trigger {
+    &:hover, &:focus .trigger {
       display: block;
       padding-bottom: 5px;
     }
