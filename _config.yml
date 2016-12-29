@@ -40,3 +40,4 @@ gems: [jekyll/scholar]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - update_github.sh
