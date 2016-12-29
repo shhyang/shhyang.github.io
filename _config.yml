@@ -21,11 +21,18 @@ contacts:
     position: Research Assistant Professor
     affiliation: The Chinese University of Hong Kong, Shenzhen
     email: shyang@cuhk.edu.cn
+    web: "http://www.cuhk.edu.cn"
     address: >
       Room 606, Cheng Dao Building<br/>
       The Chinese University of Hong Kong, Shenzhen<br/>
       2001 Longxiang Blvd.<br/>
       Longgang District, Shenzhen, China 818172
+  research:
+    position: researcher
+    affiliation: Shenzhen Research Institute of Big Data
+    email:
+    web: "http://www.sribd.cn"
+    address:
 description: > # this means to ignore newlines until "baseurl:"
   A homepage generate by jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,10 +40,10 @@ url: "https://shhyang.github.io/" # the base hostname & protocol for your site, 
 #twitter_username: jekyllrb
 github_username:  shhyang
 
-# js
-#jsarray:
-#  - js/dropdown.js
-
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
 # theme: minima
 # Build settings
 markdown: kramdown
