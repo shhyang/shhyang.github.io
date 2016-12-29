@@ -200,7 +200,7 @@ pre {
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; }
-      .site-nav:hover .trigger {
+      .site-nav:hover, .site-nav:focus .trigger {
         display: block;
         padding-bottom: 5px; } }
 
