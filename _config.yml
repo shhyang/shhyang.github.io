@@ -13,18 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Shenghao Yang
+title: shenghao yang
 author: Shenghao Yang
 email: shenghao.yang@gmail.com
 contacts:
-  research:
+  academic:
+    position: Research Assistant Professor
+    affiliation: The Chinese University of Hong Kong, Shenzhen
     email: shyang@cuhk.edu.cn
     address: >
       Room 606, Cheng Dao Building<br/>
+      The Chinese University of Hong Kong, Shenzhen<br/>
       2001 Longxiang Blvd.<br/>
       Longgang District, Shenzhen, China 818172
 description: > # this means to ignore newlines until "baseurl:"
-  Research Assistant Professor at CUHK(SZ)
+  A homepage generate by jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shhyang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

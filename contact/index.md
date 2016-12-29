@@ -4,12 +4,14 @@ title: contact
 title_s: Contact
 ---
 
-{% if site.contacts.research %}
+## Academic
+
+{% if site.contacts.academic %}
 address:
 
->{{site.contacts.research.address}}
+>{{site.contacts.academic.address}}
 
 email:
->{{site.contacts.research.email}}
+>{{site.contacts.academic.email}}
 
 {% endif %}
