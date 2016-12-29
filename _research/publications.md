@@ -15,3 +15,7 @@ title_s: Publications
 ## Patents
 
 {% bibliography -q @patent %}
+
+## Misc
+
+{% bibliography -q @misc %}

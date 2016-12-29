@@ -8,8 +8,9 @@ I am a {{ site.contacts.academic.position }} at [{{ site.contacts.academic.affil
 
 # Updates
 
+- We are hiring research assistants, PhD students and postdocs.
 
-# Teaching
+<!-- # Teaching
 
 
-# Research
+# Research -->

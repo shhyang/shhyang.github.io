@@ -59,6 +59,9 @@ scholar:
   replace_strings: true
   join_strings:    true
   use_raw_bibtex_entry: false
+  # details_dir:    research/publications
+  # details_layout: bibtex.html
+  # details_link:   Details
   query: "@*"
 # theme: minima
 # Build settings
