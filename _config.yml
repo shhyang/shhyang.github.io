@@ -40,14 +40,30 @@ url: "https://shhyang.github.io/" # the base hostname & protocol for your site, 
 #twitter_username: jekyllrb
 github_username:  shhyang
 
+# collections
 collections:
   research:
     output: true
     permalink: /research/:path/
+# bibliography
+scholar:
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: none
+  group_order: ascending
+  source: ./_data
+  bibliography: yang.bib
+  bibliography_template: ""
+  replace_strings: true
+  join_strings:    true
+  use_raw_bibtex_entry: false
+  query: "@*"
 # theme: minima
 # Build settings
 markdown: kramdown
-gems: [jekyll/scholar]
+gems: ['jekyll/scholar']
 exclude:
   - Gemfile
   - Gemfile.lock
