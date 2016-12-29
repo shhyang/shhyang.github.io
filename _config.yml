@@ -33,6 +33,10 @@ url: "https://shhyang.github.io/" # the base hostname & protocol for your site, 
 #twitter_username: jekyllrb
 github_username:  shhyang
 
+# js
+#jsarray:
+#  - js/dropdown.js
+
 # theme: minima
 # Build settings
 markdown: kramdown
