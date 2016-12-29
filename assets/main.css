@@ -163,9 +163,7 @@ pre {
 
 .site-nav {
   float: right;
-  line-height: 56px;
-  position: relative;
-  display: inline-block; }
+  line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
@@ -181,7 +179,8 @@ pre {
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
-      text-align: right; }
+      text-align: right;
+      display: inline-block; }
       .site-nav .menu-icon {
         display: block;
         float: right;
