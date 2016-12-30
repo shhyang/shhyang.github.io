@@ -47,7 +47,7 @@ collections:
     permalink: /research/:path/
 # bibliography
 scholar:
-  style: apa
+  style: _data/ieee.csl
   locale: en
   sort_by: year
   order: descending
