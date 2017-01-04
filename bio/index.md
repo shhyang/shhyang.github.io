@@ -9,3 +9,10 @@ Shenghao Yang received his B.S. degree from Nankai University in 2001, M.S. degr
 He was with the Tsinghua University from 2012 to 2015 as an Assistant Professor. He is a Research Assistant Professor at The Chinese University of Hong Kong, Shenzhen since 2015.
 
 His research interests include network coding, information theory, coding theory, network computation and quantum information. He has published more than 40 papers in international journals and conferences, including IEEE Transactions on Information Theory. He is the co-inventor of BATS codes and has two US patents granted.
+
+
+<!-- ## CV
+
+- A short one without publication list
+
+- A long one with publication list -->
