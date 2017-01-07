@@ -1,0 +1,14 @@
+<div>
+    <h3>Education</h3>
+    <ul>
+    {% for edu in site.data.education %}
+      <li><b>{{ edu.degree }}</b>, <i>{{ edu.year }}</i>, {{ edu.institute }}</li>
+    {% endfor %}
+    </ul>
+    <h3>Work</h3>
+    <ul>
+    {% for job in site.data.work %}
+      <li><b>{{ job.position }}</b>, <i>{{ job.period }}</i>, {{ job.institute }}</li>
+    {% endfor %}
+    </ul>
+</div>

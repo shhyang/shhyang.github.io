@@ -1,0 +1,116 @@
+---
+layout: cv
+---
+	<div class="mainDetails">
+		<!-- <div id="headshot" class="quickFade">
+			<img src="headshot.jpg" alt="Alan Smith" />
+		</div> -->
+
+		<div id="name">
+			<h1 class="quickFade delayOne">{{ site.author }}</h1>
+			<h2 class="quickFade delayOne">{{ site.contacts.academic.position }}</h2>
+		</div>
+
+		<div id="contactDetails" class="quickFade delayTwo">
+			<ul>
+				<li align="center"><a href="mailto:{{ site.contacts.academic.email }}" target="_blank">{{ site.contacts.academic.email }}</a></li>
+				<li align="center">{{ site.contacts.academic.address }}</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayTwo">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Research Interests</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>
+						Information theory, coding theory, network coding, quantum information, machine
+learning and big data processing
+					</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Professional Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				{% for exp in site.data.work %}
+				<article>
+					<h2>{{ exp.position }}</h2>
+					<p class="periods">{{ exp.period }}</p>
+					<p>{% if exp.department %}{{ exp.department }}, {% endif %}{% if exp.institute %}{{ exp.institute }}{% endif %}</p>
+					{% if exp.place %}
+					<p class="subDetails">{{ exp.place }}</p>
+					{% endif %}
+				</article>
+				{% endfor %}
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				{% for edu in site.data.education %}
+				<article>
+					<h2>{{ edu.degree }}</h2>
+					<p class="periods">{{ edu.year }}</p>
+					<p class="education">{{ edu.institute }}</p>
+				</article>
+				{% endfor %}
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<!-- <section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>A Key Skill</li>
+					<li>b Key Skill</li>
+					<li>c Key Skill</li>
+				</ul>
+			</div>
+		</section> -->
+
+		<section>
+			<div class="sectionTitle">
+				<h1> Publications</h1>
+			</div>
+			<div class="sectionContent">
+				<article>
+					<h2> Journal Articles </h2>
+					{% bibliography -q @article %}
+				</article>
+
+				<article>
+					<h2> Conferences and Workshops</h2>
+					{% bibliography -q @inproceedings %}
+				</article>
+
+				<article>
+					<h2>Patents</h2>
+					{% bibliography -q @patent %}
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+	</div>
