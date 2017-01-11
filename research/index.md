@@ -6,7 +6,8 @@ title_s: Research
 
 ## Overview
 My recent research interests include:
-* **Network coding**, where we focus on the designs and implementations of wireless network communications for Internet of Things. See more details in the [BATS code page][bats_page].
+* **Network coding**, where we focus on the designs and implementations of wireless network communications for Internet of Things.
+<!-- See more details in the [BATS code page][bats_page]. -->
 * **Distributed storage and computation**, which can be regarded as generalized network coding problems and have applications in Big Data processing.
 * **Machine learning**, where we are interested in the role of information learning.
 * **Quantum information**, where we are interested in randomness problems related to Bell's tests.
@@ -17,8 +18,9 @@ My recent research interests include:
 
 ## Links
 
-- Network Coding Lab at CUHK(SZ)
-- Institute of Network Coding at CUHK
+- [Institute of Network Coding]({{ site.data.links.inc }}) at CUHK
+- [Machine Learning Reading Group]({{ site.data.links.mclearning }})
+- [Network Information and Coding Study Group]({{ site.data.links.netcoding }})
 
 <!-- ### Reference
 {% bibliography --cited %} -->
