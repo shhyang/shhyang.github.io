@@ -10,6 +10,11 @@ categories: posts update
 - Windows: [miktex](https://miktex.org/)
 - Mac: [mactex](https://tug.org/mactex/)
 
+## Editors
+
+- Windows: TeXworks (installed with miktex)
+- Mac: TeXshop (installed with mactex)
+
 ## Commands
 ```
 # run latex or pdflatex on latex file input.tex
