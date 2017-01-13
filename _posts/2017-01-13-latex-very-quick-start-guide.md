@@ -7,13 +7,21 @@ categories: posts update
 
 ## Installation
 
-### Windows
+- Windows: [miktex](https://miktex.org/)
+- Mac: [mactex](https://tug.org/mactex/)
 
-[miktex](https://miktex.org/)
+## Commands
+```
+# run latex or pdflatex on latex file input.tex
+~$ latex input.tex
 
-### Mac
-[mactex](https://tug.org/mactex/)
+# run biber or bibtex
+~$ biber input.tex
+
+# run latex again
+~$ latex input.tex
+```
 
 ## Getting-start
 
-[The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf)
+- [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf)
