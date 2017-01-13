@@ -13,7 +13,7 @@ categories: posts update
 ## Editors
 
 - Windows: TeXworks (installed with miktex)
-- Mac: TeXshop (installed with mactex)
+- Mac: TeXShop (installed with mactex)
 
 ## Commands
 ```
@@ -26,6 +26,7 @@ categories: posts update
 # run latex again
 ~$ latex input.tex
 ```
+In TeXworks or TeXShop, you click some buttons to run the above commands. 
 
 ## Getting-start
 
