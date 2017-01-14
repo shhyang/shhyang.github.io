@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Latex very quick start guide"
+title:  "LaTeX very quick start guide"
 date:   2017-01-13 17:30:42 +0800
 categories: posts update
 ---
@@ -26,8 +26,8 @@ categories: posts update
 # run latex again
 ~$ latex input.tex
 ```
-In TeXworks or TeXShop, you click some buttons to run the above commands. 
+In TeXworks or TeXShop, you click some buttons to run the above commands.
 
-## Getting-start
+## Getting-started
 
 - [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf)
