@@ -1,0 +1,54 @@
+<section>
+  <article>
+    <div class="sectionTitle">
+      <h1>Research Interests</h1>
+    </div>
+
+    <div class="sectionContent">
+      <p>
+        Information theory, coding theory, network coding, quantum information, machine
+learning and big data processing
+      </p>
+    </div>
+  </article>
+  <div class="clear"></div>
+</section>
+
+
+<section>
+  <div class="sectionTitle">
+    <h1>Professional Experience</h1>
+  </div>
+
+  <div class="sectionContent">
+    {% for exp in site.data.work %}
+    <article>
+      <h2>{{ exp.position }}</h2>
+      <p class="periods">{{ exp.period }}</p>
+      <p>{% if exp.department %}{{ exp.department }}, {% endif %}{% if exp.institute %}{{ exp.institute }}{% endif %}</p>
+      {% if exp.place %}
+      <p class="subDetails">{{ exp.place }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  <div class="clear"></div>
+</section>
+
+
+<section>
+  <div class="sectionTitle">
+    <h1>Education</h1>
+  </div>
+
+  <div class="sectionContent">
+    {% for edu in site.data.education %}
+    <article>
+      <h2>{{ edu.degree }}</h2>
+      <p class="periods">{{ edu.year }}</p>
+      <p class="education">{{ edu.institute }}</p>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="clear"></div>
+</section>
