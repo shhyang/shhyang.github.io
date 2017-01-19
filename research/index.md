@@ -14,8 +14,8 @@ My recent research interests include:
 
 ## Publications
 
-- [Google Scholar][google_scholar_shenghao]
-- [dblp][dblp_shenghao]
+- [Google Scholar page]({{ site.data.links.google_scholar_shenghao }})
+- [dblp page]({{ site.data.links.dblp_shenghao }})
 - [My publication list][publication_page].
 
 ## Links
