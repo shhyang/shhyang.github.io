@@ -67,6 +67,7 @@ scholar:
 markdown: kramdown
 gems:
   - jekyll/scholar
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

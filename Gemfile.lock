@@ -35,6 +35,8 @@ GEM
       citeproc-ruby (~> 1.0)
       csl-styles (~> 1.0)
       jekyll (~> 3.0)
+    jekyll-sitemap (1.0.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -63,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.3.1)
   jekyll-scholar (~> 5.8.5)
+  jekyll-sitemap
 
 RUBY VERSION
    ruby 2.3.1p112
