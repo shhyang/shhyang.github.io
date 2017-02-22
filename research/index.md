@@ -19,7 +19,7 @@ My recent research interests include:
 - [My publication list][publication_page].
 
 ## Links
-
+- [A webpage about BATS codes][bats_page]
 - [Institute of Network Coding]({{ site.data.links.inc }}) at CUHK
 - [Machine Learning Reading Group]({{ site.data.links.mclearning }})
 - [Network Information and Coding Study Group]({{ site.data.links.netcoding }})
