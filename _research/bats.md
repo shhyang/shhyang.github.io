@@ -10,7 +10,7 @@ BATS (BATched Sparse) codes are developed to improve the network transmission ra
 
 
 ## Some Papers about BATS codes
-(not a completed list)
+(an incomplete list)
 
 {% bibliography -f bats %}
 
