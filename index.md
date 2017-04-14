@@ -11,7 +11,7 @@ I am a {{ site.contacts.academic.position }} at [{{ site.contacts.academic.affil
 - Two study groups:
   - [Machine Learning Reading Group]({{ site.data.links.mclearning }})
   - [Network Information and Coding Study Group]({{ site.data.links.netcoding }})
-- We are hiring research assistants, PhD students and postdocs at both CUHK(SZ) and SRIBD. Please contact me for more informatins.
+- We are hiring research assistants, PhD students and postdoctors at both CUHK(SZ) and SRIBD. Please contact me for more information.
 
 <!-- # Teaching
 
