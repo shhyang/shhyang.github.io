@@ -8,3 +8,4 @@ git add *
 git commit -m "update" -q
 git push
 git checkout develop
+git push
