@@ -54,7 +54,7 @@ scholar:
   group_order: ascending
   source: ./_data
   bibliography: yang.bib
-  bibliography_template: ""
+  bibliography_template: bib
   replace_strings: true
   join_strings:    true
   use_raw_bibtex_entry: false
