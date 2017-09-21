@@ -10,13 +10,13 @@ BATS (BATched Sparse) codes are developed to improve the network transmission ra
 
 ## Monograph
 
-BATS Codes: Theory and Practice
-by Shenghao Yang, Raymond W. Yeung
-Morgan & Claypool Publishers
-2017
+![BATS Code monograph](http://www.morganclaypoolpublishers.com/catalog_Orig/images/9781627055970.png){: .align-left}
 
-[Book webpage](http://www.morganclaypool.com/doi/abs/10.2200/S00794ED1V01Y201708CNT019)
-[M&C Bookstore](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1111)
+_[BATS Codes: Theory and Practice](http://www.morganclaypool.com/doi/abs/10.2200/S00794ED1V01Y201708CNT019)_  
+by Shenghao Yang and Raymond W. Yeung  
+Morgan & Claypool Publishers, 2017
+
+Get a copy from [M&C Bookstore](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1111).
 
 
 ## Some Papers
