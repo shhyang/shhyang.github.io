@@ -8,6 +8,16 @@ title_s:
 
 BATS (BATched Sparse) codes are developed to improve the network transmission rate of networks with packet loss. In contrast to traditional retransmission based approach for resolving packet loss, network coding is employed in BATS codes to compensate packet loss along the way, and improve the throughput for multicast.  
 
+## Monograph
+
+BATS Codes: Theory and Practice
+by Shenghao Yang, Raymond W. Yeung
+Morgan & Claypool Publishers
+2017
+
+[Book webpage](http://www.morganclaypool.com/doi/abs/10.2200/S00794ED1V01Y201708CNT019)
+[M&C Bookstore](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1111)
+
 
 ## Some Papers
 (an incomplete list)
