@@ -16,6 +16,7 @@ My recent research interests include:
 
 - [Google Scholar page]({{ site.data.links.google_scholar_shenghao }})
 - [dblp page]({{ site.data.links.dblp_shenghao }})
+- [Baidu Xueshu]({{ site.data.links.baidu_xueshu_shenghao }})
 - [My publication list][publication_page].
 
 ## Links
