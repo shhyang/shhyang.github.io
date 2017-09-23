@@ -16,7 +16,7 @@ _BATS Codes: Theory and Practice_
 by Shenghao Yang and Raymond W. Yeung  
 Morgan & Claypool Publishers, 2017
 
-Get a copy from [M&C Bookstore](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1111).
+You can get a copy from [M&C Bookstore](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1111).
 
 
 ## Some Papers
