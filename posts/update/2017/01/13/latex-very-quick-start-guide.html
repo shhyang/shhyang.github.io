@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>posts</title>
-  <meta name="description" content="A homepage of Shenghao Yang.">
+  <title>LaTeX very quick start guide</title>
+  <meta name="description" content="Installation">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://shhyang.github.io//posts/">
+  <link rel="canonical" href="https://shhyang.github.io//posts/update/2017/01/13/latex-very-quick-start-guide.html">
   <link rel="alternate" type="application/rss+xml" title="shenghao yang" href="/feed.xml">
 
   <script>
@@ -92,45 +92,50 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Posts</h1>
+    <h1 class="post-title" itemprop="name headline">LaTeX very quick start guide</h1>
+    <p class="post-meta"><time datetime="2017-01-13T17:30:42+08:00" itemprop="datePublished">Jan 13, 2017</time></p>
   </header>
 
-  <div class="post-content">
-    <div class="post-content">
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 13, 2017</span>
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="installation">Installation</h2>
 
-        <h2>
-          <a class="post-link" href="/posts/update/2017/01/13/latex-very-quick-start-guide.html">LaTeX very quick start guide</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2017</span>
+<ul>
+  <li>Windows: <a href="https://miktex.org/">miktex</a></li>
+  <li>Mac: <a href="https://tug.org/mactex/">mactex</a></li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/posts/update/2017/01/04/CV-template.html">A CV Template</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 27, 2016</span>
+<h2 id="editors">Editors</h2>
 
-        <h2>
-          <a class="post-link" href="/posts/update/2016/12/27/welcome-to-jekyll.html">A homepage with Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<ul>
+  <li>Windows: TeXworks (installed with miktex)</li>
+  <li>Mac: TeXShop (installed with mactex)</li>
+</ul>
+
+<h2 id="commands">Commands</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code># run latex or pdflatex on latex file input.tex
+~$ latex input.tex
+
+# run biber or bibtex
+~$ biber input.tex
+
+# run latex again
+~$ latex input.tex
+</code></pre>
 </div>
+<p>In TeXworks or TeXShop, you click some buttons to run the above commands.</p>
+
+<h2 id="getting-started">Getting-started</h2>
+
+<ul>
+  <li><a href="https://tobi.oetiker.ch/lshort/lshort.pdf">The Not So Short Introduction to LaTeX</a></li>
+</ul>
 
   </div>
 
+  
 </article>
 
       </div>

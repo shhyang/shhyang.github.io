@@ -12,7 +12,7 @@ BATS (BATched Sparse) codes are developed to improve the network transmission ra
 
 ![BATS Code monograph](http://www.morganclaypoolpublishers.com/catalog_Orig/images/9781627055970.png){: .align-left}
 
-_[BATS Codes: Theory and Practice](http://www.morganclaypool.com/doi/abs/10.2200/S00794ED1V01Y201708CNT019)_  
+_BATS Codes: Theory and Practice_  
 by Shenghao Yang and Raymond W. Yeung  
 Morgan & Claypool Publishers, 2017
 
