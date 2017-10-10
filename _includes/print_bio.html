@@ -8,7 +8,7 @@
     <h3>Work</h3>
     <ul>
     {% for job in site.data.work %}
-      <li><b>{{ job.position }}</b>, <i>{{ job.period }}</i>, {{ job.department }}, {{ job.institute }}</li>
+      <li><b>{{ job.position }}</b>, <i>{{ job.period }}</i>, {% if job.department %}{{ job.department }},{% endif %} {{ job.institute }}</li>
     {% endfor %}
     </ul>
 </div>
