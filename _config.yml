@@ -18,7 +18,7 @@ author: Shenghao Yang
 email: shenghao.yang@gmail.com
 contacts:
   academic:
-    position: Research Assistant Professor
+    position: Assistant Professor
     affiliation: The Chinese University of Hong Kong, Shenzhen
     email: shyang@cuhk.edu.cn
     web: "http://www.cuhk.edu.cn"
@@ -57,7 +57,7 @@ scholar:
   bibliography_template: bib
   replace_strings: true
   join_strings:    true
-  use_raw_bibtex_entry: false
+  # use_raw_bibtex_entry: false
   # details_dir:    research/publications
   # details_layout: bibtex.html
   # details_link:   Details
@@ -65,9 +65,9 @@ scholar:
 # theme: minima
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll/scholar
-  - jekyll-sitemap
+  #- jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

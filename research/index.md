@@ -17,13 +17,13 @@ My recent research interests include:
 - [Google Scholar page]({{ site.data.links.google_scholar_shenghao }})
 - [dblp page]({{ site.data.links.dblp_shenghao }})
 <!-- - [Baidu Xueshu]({{ site.data.links.baidu_xueshu_shenghao }}) -->
-- [My publication list][publication_page]
+<!-- - [My publication list][publication_page] -->
 
 ## Links
 - [A webpage about BATS codes][bats_page]
 - [Institute of Network Coding]({{ site.data.links.inc }}) at CUHK
-- [Machine Learning Reading Group]({{ site.data.links.mclearning }})
-- [Network Information and Coding Study Group]({{ site.data.links.netcoding }})
+<!--- [Machine Learning Reading Group]({{ site.data.links.mclearning }}) -->
+<!--- [Network Information and Coding Study Group]({{ site.data.links.netcoding }}) -->
 
 <!-- ### Reference
 {% bibliography --cited %} -->
