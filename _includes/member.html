@@ -1,0 +1,25 @@
+<div class="page_listing">
+    <div class="page_logo_left">
+        <img src="{{site.baseurl}}/img/{{steve.imghref}}" />
+    </div>
+    <div class="page_contenu_logo_left">
+        <h4>{{steve.name}}</h4>
+        <p>{{steve.bio}}</p>
+
+        {% if steve.email %}
+        <a href="mailto:{{steve.email}}">@</a>
+        {% else %}
+        {% endif %}
+
+        {% if steve.webpage_url %}
+        <a href="{{steve.webpage_url}}">www</a>
+        {% else %}
+
+        {% endif %}
+
+        {% if steve.github_username %}
+        <a href="https://github.com/{{steve.github_username}}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
+        {% else %}
+        {% endif %}
+    </div>
+</div>
