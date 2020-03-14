@@ -4,7 +4,7 @@ title: contact
 title_s: Contact
 ---
 
-## Academic
+## Office
 
 {% if site.contacts.academic %}
 address:
@@ -13,5 +13,17 @@ address:
 
 email:
 >{{site.contacts.academic.email}}
+
+{% endif %}
+
+## Lab
+
+{% if site.contacts.nclab %}
+address:
+
+>{{site.contacts.nclab.address}}
+
+email:
+>{{site.contacts.nclab.email}}
 
 {% endif %}

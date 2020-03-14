@@ -26,6 +26,15 @@ contacts:
       Rm 606, Cheng Dao Bldg<br/>
       2001 Longxiang Blvd.<br/>
       Longgang Dist., Shenzhen, China
+  nclab:
+    position: Director
+    affiliation: The Chinese University of Hong Kong, Shenzhen
+    email: nclab@cuhk.edu.cn
+    web: "http://shhyang.github.io/nclab"
+    address: >
+      Rm 317B, Cheng Dao Bldg<br/>
+      2001 Longxiang Blvd.<br/>
+      Longgang Dist., Shenzhen, China
   research:
     position: researcher
     affiliation: Shenzhen Research Institute of Big Data
