@@ -25,7 +25,7 @@ I work as {{ site.contacts.academic.position }} at [{{ site.contacts.academic.af
   - Hand-on projects: undergraduates with programming (c/c++ preferred) experience.
   - Theoretical research: strong math background (in particular probability, linear algebra and (better) analysis).
 
-Please contact me for more information.
+The above positions available year-round. Please contact me for more information.
 
 <!-- # Teaching
 
