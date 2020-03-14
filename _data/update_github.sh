@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 jekyll build
-git add *
+#git add *
 git commit -m "update" -q
 git checkout master
+git pull
 rsync -avv _site/ .
 git add *
 git commit -m "update" -q
