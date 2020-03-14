@@ -22,6 +22,11 @@ Network Coding Lab (NCLab, 网络编码实验室) at CUHK(SZ) conducts advanced 
 
 <div>
 {% for steve in site.data.members %}
+   {% if steve.position == 'postdoc' and steve.status == 'current' %}
+      {% include member.html %}
+   {% endif %}
+{% endfor %}
+{% for steve in site.data.members %}
    {% if steve.position == 'student' and steve.status == 'current' %}
       {% include member.html %}
    {% endif %}
@@ -30,5 +35,12 @@ Network Coding Lab (NCLab, 网络编码实验室) at CUHK(SZ) conducts advanced 
 
 ### Previous Members
 
+<div>
+{% for steve in site.data.members %}
+   {% if steve.position == 'student' and steve.status == 'previous' %}
+      {% include member.html %}
+   {% endif %}
+{% endfor %}
+</div>
 
 (Many undergraduate students work(ed) at NCLab. If we miss your name here, please let me know.)
