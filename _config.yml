@@ -44,6 +44,7 @@ contacts:
 description: > # this means to ignore newlines until "baseurl:"
   A homepage of Shenghao Yang.
 baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://www.cuhk.edu.cn/academics/shyang"
 url: "https://shhyang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  shhyang

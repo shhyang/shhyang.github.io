@@ -1,6 +1,10 @@
 <div class="page_listing">
     <div class="page_logo_left">
-        <img src="{{site.baseurl}}/img/{{steve.imghref}}" />
+        {% if steve.imghref %}
+        <img src="/img/{{steve.imghref}}" alt="photo is missing"/>
+        {% else %}
+
+        {% endif %}
     </div>
     <div class="page_contenu_logo_left">
         <h4>{{steve.name}}</h4>
