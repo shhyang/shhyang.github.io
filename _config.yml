@@ -51,6 +51,9 @@ github_username:  shhyang
 
 # collections
 collections:
+  nclab:
+    output: true
+    permalink: /nclab/:path/
   research:
     output: true
     permalink: /research/:path/

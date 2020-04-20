@@ -8,6 +8,10 @@ title_s: NCLab
 
 Network Coding Lab (NCLab, 网络编码实验室) at CUHK(SZ) conducts advanced theoretical and applied researches. The current research of NCLab focuses on network information processing, including storage, communication and computation. NCLab is also developing network coding enabled networking systems towards applications in Internet of Things, underwater networks and deep-space networks.
 
+## News
+
+- [NCLab Summer Camp 2020]({% link _nclab/summer-camp-2020s.md %}).
+
 ## Our Team
 
 <div>
