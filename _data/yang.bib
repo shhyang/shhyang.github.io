@@ -9,30 +9,49 @@
 
 
 
+@misc{bats-id,
+  author = 	 {S. Yang and X. Huang and R.W. Yeung and J.K. Zao},
+  title = 	 {{BATS} Coding Scheme for Multi-hop Data Transport},
+  year = 	 {2018-2022},
+  url = {https://datatracker.ietf.org/doc/draft-irtf-nwcrg-bats/},
+  note = {IRTF state: IRSG Review},
+  keywords = 	 {standard},
+}
+
 @misc{yang_coupled,
     Author = {Shenghao Yang and Soung-Chang Liew and Lizhao You and Yi Chen},
     Title = {Linearly-Coupled Fountain Codes},
-    Note = {submitted to IEEE Transactions on Information Theory},
-    Url = {http://arXiv.org//abs/1410.2757},
-    Year={2014}
+          year={2014},
+      eprint={1410.2757},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
+      }
+@misc{zhao20repeated-root,
+    author = {Wei Zhao and Shenghao Yang and Kenneth W. Shum},
+    title = {Repeated-root Constacyclic Codes with Optimal Locality},
+    note = {submitted to IEEE Transactions on Information Theory},
+    year = {2020}
+}
+
+@misc{yang2021capacity,
+      title={Capacity Scalability of Line Networks with Batched Codes}, 
+      author={Shenghao Yang and Jie Wang and Yanyan Dong and Yiheng Zhang},
+      year={2021},
+      note = {submitted to IEEE Transactions on Information Theory},
+      eprint={2105.07669},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
 }
 
 
-
-@misc{ng13ff,
-        Author = {Shenghao Yang and Tsz Ching Ng and Raymond W. Yeung},
-        Note = {submitted to IEEE Transactions on Information Theory},
-	Title = {Finite-length analysis of {BATS} codes},
-	Year = {2016},
-        Url = {http://arxiv.org/abs/1312.4811}
-}
-
-
-@misc{bin_ldpc,
-    Author = {Bin Tang and Shenghao Yang},
-    Title = {An {LDPC} Approach for Chunked Network Codes},
-    Note = {submitted to IEEE/ACM Transactions on Networking},
-    Year = {2016}
+@misc{yin2021bar,
+      title={BAR: Blockwise Adaptive Recoding for Batched Network Coding}, 
+      author={Hoover H. F. Yin and Shenghao Yang and Qiaoqiao Zhou and Lily M. L. Yung and Ka Hei Ng},
+      year=2021,
+      note = {submitted to IEEE Journal on Selected Areas in Information Theory},
+      eprint={2105.07617},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
 }
 
 
@@ -66,68 +85,252 @@
 	Year = {2010},
 	Bdsk-Url-1 = {http://arxiv.org/abs/1002.2293v1}}
 
+%%%% Book
+
+
+@Book{yang17monograph,
+  author = 	 {Shenghao Yang and Raymond W. Yeung},
+  title = 	 {{BATS} Codes: Theory and Practice},
+  series = {Synthesis Lectures on Communication Networks},
+  publisher = 	 {Morgan \& Claypool Publishers},
+  year = 	 {2017},
+  doi = {10.2200/S00794ED1V01Y201708CNT019},
+}
+
+
 %%%% Article
 
+
+
+@ARTICLE{yang2022comm,
+  author={Yang, Shenghao and Yeung, Raymond W.},
+  journal={IEEE Communications Magazine}, 
+  title={Network Communication Protocol Design from the Perspective of Batched Network Coding}, 
+  year={2022},
+  volume={60},
+  number={1},
+  pages={89-93},
+  doi={10.1109/MCOM.001.21828}}
+
+
+@article{yin2021unified,
+author={Yin, Hoover H. F. and Tang, Bin and Ng, Ka Hei and Yang, Shenghao and Wang, Xishi and Zhou, Qiaoqiao}, 
+journal={IEEE Journal on Selected Areas in Information Theory},
+title={A Unified Adaptive Recoding Framework for Batched Network Coding}, 
+year={2021}, 
+volume={2}, 
+number={4}, 
+pages={1150-1164}, 
+doi={10.1109/JSAIT.2021.3126634}
+}
+
+@article{yin2021intrablock,
+author={Yin, Hoover H. F. and Ng, Ka Hei and Zhong, Allen Z. and Yeung, Raymond W. and Yang, Shenghao and Chan, Ian Y. Y.}, 
+journal={IEEE Journal on Selected Areas in Information Theory},
+title={Intrablock Interleaving for Batched Network Coding With Blockwise Adaptive Recoding}, 
+year={2021}, 
+volume={2}, 
+number={4}, 
+pages={1135-1149}, 
+doi={10.1109/JSAIT.2021.3126647}
+}
+
+@article{dong2021utility,
+author={Dong, Yanyan and Jin, Sheng and Chen, Yanzuo and Yang, Shenghao and Yin, Hoover H. F.}, 
+journal={IEEE Journal on Selected Areas in Information Theory},
+title={Utility Maximization for Multihop Wireless Networks Employing BATS Codes}, 
+year={2021}, 
+volume={2}, 
+number={4}, 
+pages={1120-1134}, 
+doi={10.1109/JSAIT.2021.3126426}
+}
+
+@article{zhao20symbol_pair,
+   Author = {Wei {Zhao} and Shenghao {Yang} and Kenneth W. {Shum}},
+   Title = {Repeated-Root Constacyclic Codes with Pair-Metric},
+   journal={IEEE Communications Letters}, 
+year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/LCOMM.2020.3041271}}
+
+
+@article{yin20entropy,
+   Author = {Hoover H. F. Yin and Raymond W. Yeung and Shenghao Yang},
+   Title = {A Protocol Design Paradigm for Batched Sparse Codes},
+   journal = {Entropy},
+   volume = {22},
+   number = {7},
+   year = {2020},
+   pages = {790},
+   doi = {10.3390/e22070790}
+}
+
+@article{fu20it,
+  author={X. {Fu} and S. {Yang} and Z. {Xiao}},
+  journal={IEEE Transactions on Information Theory}, 
+  title={Decoding and Repair Schemes for Shift-XOR Regenerating Codes}, 
+  year={2020},
+  volume={66},
+  number={12},
+  pages={7371-7386},
+  doi={10.1109/TIT.2020.3019168}
+}
+
+@article{zhou19,
+   Author = {Zhiheng Zhou and Congduan Li and Shenghao Yang and Xuan Guang},
+   Title = {Practical Inner Codes for Batched Sparse Codes in Wireless Multi-hop Networks},
+   Journal = {IEEE Transactions on Vehicular Technology},
+   Year = {2019},
+   volume = {68},
+   number = {3},
+   pages = {2751-2762},
+   doi = {10.1109/TVT.2019.2891842}
+}
+
+@article{guang19,
+   author = {Xuan Guang and Raymond W. Yeung and Shenghao Yang and Congduan Li},
+   title = {Improved Upper Bound on the Network Function Computing Capacity},
+   journal = {IEEE Transactions on Information Theory},
+   Year = {2019},
+   volume = {65},
+   number = {6},
+   pages = {3790-3811},
+   doi = {10.1109/TIT.2019.2893107}
+}
+
+@article{yeung18,
+  Author = {Raymond W. Yeung and Guangliang  Dong and  Jian Zhu and  Haitao Li and  Shenghao Yang and Chao  Chen},
+  journal = {Journal of Deep Space Exploration},
+  title = {Space Communication and {BATS} Codes: A Marriage Made in Heaven},
+  year = {2018},
+  volume = {5},
+  number = {2},
+  pages = {129-139},
+  doi = {10.15982/j.issn.2095-7777.2018.02.004}
+}
+
+@article{huang18,
+        Author = {Cupjin Huang and Zihan Tan and Shenghao Yang and Xuan Guang},
+journal={IEEE Transactions on Information Theory}, 
+title={Comments on Cut-Set Bounds on Network Function Computation}, 
+year={2018}, 
+volume={64}, 
+number={9}, 
+pages={6454-6459}, 
+keywords={Upper bound;Integrated circuits;Network coding;Electronic mail;Encoding;Computational modeling;Network function computation;network coding;computing capacity;general cut-set bound;tightness;information theory}, 
+doi={10.1109/TIT.2018.2827405}, 
+ISSN={0018-9448}, 
+month={Sept},}
+
+@article{bin18ldpc,
+    Author = {Bin Tang and Shenghao Yang},
+    Title = {An {LDPC} Approach for Chunked Network Codes},
+    journal = {IEEE/ACM Transactions on Networking},
+    year = {2018},
+    month = {Feb.},
+    volumne = {26},
+    number = {1},
+    pages = {605-617},
+    doi = {10.1109/TNET.2017.2787726},
+}
+
+@ARTICLE{yang17finite,
+        Author = {Shenghao Yang and Tsz Ching Ng and Raymond W. Yeung},
+	Title = {Finite-length analysis of {BATS} codes},
+	journal={IEEE Transactions on Information Theory}, 
+year={2018}, 
+volume={64}, 
+number={1}, 
+pages={322-348}, 
+doi={10.1109/TIT.2017.2769122}, 
+ISSN={0018-9448}, 
+month={Jan.}
+}
+
+@ARTICLE{zhou17Vary,
+    Author = {Qiaoqiao Zhou and Hoover H.F. Yin and Shenghao Yang and Bin Tang},
+    Title = {On {BATS} Codes with Variable Batch Sizes},
+    Journal = {IEEE Communication Letters},
+    Year = {2017},
+    DOI = {10.1109/LCOMM.2017.2713813},
+    month = {Sept.},
+    volumne={21},
+    number={9},
+    pages={1917-1920},
+}
+
 @ARTICLE{zhao17BATS,
-author = {Huakai Zhao and Shenghao Yang and Guinian Feng},
-title = {Fast degree distribution optimization for {BATS} codes},
-note = {accepted by SCIENCE CHINA Information Sciences},
-year = {2017}
+author="Zhao, Huakai
+and Yang, Shenghao
+and Feng, Guinian",
+title="Fast degree-distribution optimization for {BATS} codes",
+journal="Science China Information Sciences",
+year="2017",
+month="Jul",
+day="04",
+volume="60",
+number="10",
+pages="102301",
+issn="1869-1919",
+doi="10.1007/s11432-016-9011-8"
 }
 
 @ARTICLE{zhao16BATS,
-author={Huakai Zhao and Shenghao Yang and Guangliang Dong},
-journal={IEEE Communications Letters},
-title={A Polynomial Formula for Finite-Length {BATS} Code Performance},
-volume={PP},
-number={99},
-pages={1-1},
-doi={10.1109/LCOMM.2016.2619698},
-ISSN={1089-7798},
-month={},
-year={2016}
+author={Huakai Zhao and Shenghao Yang and Guangliang Dong}, 
+journal={IEEE Communications Letters}, 
+title={A Polynomial Formula for Finite-Length {BATS} Code Performance}, 
+doi={10.1109/LCOMM.2016.2619698}, 
+ISSN={1089-7798}, 
+year={2017},
+volume={21},
+number={2},
+pages={222-225},
 }
 
-@ARTICLE{teng_bell16,
-author={Y. Teng and S. Yang and S. Wang and M. Zhao},
-journal={IEEE Transactions on Information Theory},
-title={Tight Bound on Randomness for Violating the Clauser-Horne-Shimony-Holt Inequality},
-year={2016},
-volume={62},
-number={4},
-pages={1748-1757},
-doi={10.1109/TIT.2016.2535179},
-ISSN={0018-9448},
+@ARTICLE{teng_bell16, 
+author={Y. Teng and S. Yang and S. Wang and M. Zhao}, 
+journal={IEEE Transactions on Information Theory}, 
+title={Tight Bound on Randomness for Violating the {C}lauser-{H}orne-{S}himony-{H}olt Inequality}, 
+year={2016}, 
+volume={62}, 
+number={4}, 
+pages={1748-1757}, 
+doi={10.1109/TIT.2016.2535179}, 
+ISSN={0018-9448}, 
 month={April}}
 
 
-@ARTICLE{yang_tree16,
-author={Shenghao Yang and Qiaoqiao Zhou},
-journal={IEEE Communications Letters},
-title={Tree Analysis of {BATS} Codes},
-year={2016},
-volume={20},
-number={1},
-pages={37-40},
-doi={10.1109/LCOMM.2015.2499192},
-ISSN={1089-7798},
-month={Jan},}
+@ARTICLE{yang_tree16, 
+author={Shenghao Yang and Qiaoqiao Zhou}, 
+journal={IEEE Communications Letters}, 
+title={Tree Analysis of {BATS} Codes}, 
+year={2016}, 
+volume={20}, 
+number={1}, 
+pages={37-40}, 
+doi={10.1109/LCOMM.2015.2499192}, 
+ISSN={1089-7798}, 
+month={Jan}
+}
 
-
-@ARTICLE{bin_schedu16,
-author={Bin Tang and Shenghao Yang and Baoliu Ye and Song Guo and Sanglu Lu},
-journal={Computers, IEEE Transactions on},
+@ARTICLE{bin_schedu16, 
+author={Bin Tang and Shenghao Yang and Baoliu Ye and Song Guo and Sanglu Lu}, 
+journal={Computers, IEEE Transactions on}, 
 title={Near-optimal One-sided Scheduling for Coded Segmented Network Coding},
-year={2016},
-volume={65},
-number={3},
-pages={929-939},
-doi={10.1109/TC.2015.2435792},
-ISSN={0018-9340},
-month={March},}
+year={2016}, 
+volume={65}, 
+number={3}, 
+pages={929-939}, 
+doi={10.1109/TC.2015.2435792}, 
+ISSN={0018-9340}, 
+month={March}
+}
 
 @ARTICLE{bin_expander15,
-	Author = {Bin Tang and Shenghao Yang and Yitong Yin and Baoliu Ye and Sanglu Lu},
+	Author = {Bin Tang and Shenghao Yang and Baoliu Ye and Yitong Yin and Sanglu Lu},
 	Title = {Expander Chunked Codes},
 	Journal="EURASIP Journal on Advances in Signal Processing",
         Volume="2015",
@@ -135,71 +338,70 @@ month={March},}
         pages="1--13",
 	issn="1687-6180",
         doi="10.1186/s13634-015-0297-8",
-        url="http://dx.doi.org/10.1186/s13634-015-0297-8",
 	Year = {2015}}
 
 @article{yang14loc,
-author={Shenghao Yang and Siu-Wai Ho and Jin Meng and En-Hui Yang},
-journal={Information Theory, IEEE Transactions on},
-title={Capacity Analysis of Linear Operator Channels Over Finite Fields},
-year={2014},
-month={Aug},
-volume={60},
-number={8},
+author={Shenghao Yang and Siu-Wai Ho and Jin Meng and En-Hui Yang}, 
+journal={Information Theory, IEEE Transactions on}, 
+title={Capacity Analysis of Linear Operator Channels Over Finite Fields}, 
+year={2014}, 
+month={Aug.}, 
+volume={60}, 
+number={8}, 
 pages={4880-4901},
 doi={10.1109/TIT.2014.2326976},
 ISSN={0018-9448}
 }
 
 @article{yang14bats,
-author={Yang, Shenghao and Yeung, R.W.},
-journal={Information Theory, IEEE Transactions on},
-title={Batched Sparse Codes},
-year={2014},
-month={Sep},
-volume={60},
-number={9},
-pages={5322-5346},
-doi={10.1109/TIT.2014.2334315},
+author={Yang, Shenghao and Yeung, Raymond W.}, 
+journal={Information Theory, IEEE Transactions on}, 
+title={Batched Sparse Codes}, 
+year={2014}, 
+month={Sep.}, 
+volume={60}, 
+number={9}, 
+pages={5322-5346}, 
+doi={10.1109/TIT.2014.2334315}, 
 ISSN={0018-9448},
 }
 
 @article{gohari13,
 Author = {Amin A. Gohari and Shenghao Yang and Sidharth Jaggi},
-journal={Information Theory, IEEE Transactions on},
-title={Beyond the Cut-Set Bound: Uncertainty Computations in Network Coding With Correlated Sources},
-year={2013},
-month={Sep},
-volume={59},
-number={9},
-pages={5708-5722},
-doi={10.1109/TIT.2013.2262454},
+journal={Information Theory, IEEE Transactions on}, 
+title={Beyond the Cut-Set Bound: Uncertainty Computations in Network Coding With Correlated Sources}, 
+year={2013}, 
+month={Sep.}, 
+volume={59}, 
+number={9}, 
+pages={5708-5722}, 
+doi={10.1109/TIT.2013.2262454}, 
 ISSN={0018-9448}
 }
 
 @article{cy12,
 Author = {Yi Chen and Shenghao Yang and Wing Shing Wong},
-journal={Wireless Communications, IEEE Transactions on},
-title={Exact Non-{G}aussian Interference Model for Fading Channels},
-year={2013},
-month={Jan},
-volume={12},
-number={1},
-pages={168-179},
-doi={10.1109/TWC.2012.113012.112117},
+journal={Wireless Communications, IEEE Transactions on}, 
+title={Exact Non-{G}aussian Interference Model for Fading Channels}, 
+year={2013}, 
+month={Jan.}, 
+volume={12}, 
+number={1}, 
+pages={168-179}, 
+doi={10.1109/TWC.2012.113012.112117}, 
 ISSN={1536-1276}
 }
 
 @article{yang09it,
 Author = {Shenghao Yang and Raymond W. Yeung and Chi Kin Ngai},
-journal={Information Theory, IEEE Transactions on},
-title={Refined Coding Bounds and Code Constructions for Coherent Network Error Correction},
-year={2011},
-month={Mar},
-volume={57},
-number={3},
-pages={1409-1424},
-doi={10.1109/TIT.2011.2106930},
+journal={Information Theory, IEEE Transactions on}, 
+title={Refined Coding Bounds and Code Constructions for Coherent Network Error Correction}, 
+year={2011}, 
+month={Mar.}, 
+volume={57}, 
+number={3}, 
+pages={1409-1424}, 
+doi={10.1109/TIT.2011.2106930}, 
 ISSN={0018-9448}
 }
 
@@ -213,6 +415,159 @@ ISSN={0018-9448}
 	Year = {2008},
         Note={invited paper},
 doi={10.1002/ett.1290}
+}
+
+@article{xu14mooc,
+author={Wei Xu and Sheghao Yang and Xiamin Lv and Yan Zhang},
+title = {MOOC时代,``姚班''在行动},
+Journal = {Computer Education},
+Year = {2014},
+Number = {21},
+doi = {10.16512/j.cnki.jsjjy.2014.21.003}
+}
+
+%% 2021
+
+@inproceedings{fan22isit,
+  Author = {Yijun Fan and Yanxiao Liu and Shenghao Yang},
+  Title = {Continuity of Link Scheduling Rate Region for Wireless Networks with Propagation Delays},
+  Booktitle = {Information Theory Proceedings (ISIT), 2022 IEEE International Symposium on},
+  Year = {2022}
+}
+
+@inproceedings{jwang21isit,
+  Author = {Jie Wang and Zhiyuan Jia and Hoover H. F. Yin and Shenghao Yang},
+  Title = {Small-Sample Inferred Adaptive Recoding for Batched Network Coding},
+  Booktitle = {Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on},
+  Year = {2021}
+}
+@inproceedings{hyin21isit,
+  Author = {Hoover H. F. Yin and Ka Hei Ng and Allen Z. Zhong and Raymond W. Yeung and Shenghao Yang},
+  Title = {Intrablock Interleaving for Batched Network Coding with Blockwise Adaptive Recoding},
+  Booktitle = {Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on},
+  Year = {2021}
+}
+@inproceedings{yzhang21isit,
+  Author = {Yiheng Zhang and Ximing Fu and Xuanchen Wu and Shenghao Yang and Kenneth W. Shum},
+  Title = {Solving Monoshift Systems and Applications in Random Coding},
+  Booktitle = {Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on},
+  Year = {2021}
+}
+@inproceedings{xchen21isit,
+  Author = {Xiaopeng Cheng and Ximing Fu and Yuanxin Guo and Kenneth W. Shum and Shenghao Yang},
+  Title = {Successively Solvable Shift-Add Systems --- a Graphical Characterization},
+  Booktitle = {Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on},
+  Year = {2021}
+}
+@inproceedings{xfu21isit,
+  Author = {Ximing Fu and Chenhao Wu and Yuanxin Guo and Shenghao Yang},
+  Title = {Two-tone Shift-XOR Storage Codes},
+  Booktitle = {Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on},
+  Year = {2021}
+}
+
+@inproceedings{jma21scheduling,
+  Title = {Rate Region of Scheduling a Wireless Network with Discrete Propagation Delays},
+  Author = {Jun Ma and Yanxiao Liu and Shenghao Yang},
+  Booktitle = {Infocom'21}
+}
+
+%% 2020 conferences
+
+@inproceedings{dong20,
+   Title = {On Optimal Finite-length Binary Codes of Four Codewords for Binary Symmetric Channels},
+   Author = {Yanyan Dong and Shenghao Yang},
+   Booktitle = {ISITA'20}
+}
+
+
+@inproceedings{yang20isit,
+  Author = {Shenghao Yang and Jie Wang},
+  Title = {Upper Bound Scalability on Achievable Rates of Batched Codes for Line Networks},
+  Booktitle = {Information Theory Proceedings (ISIT), 2020 IEEE International Symposium on},
+  Year = {2020}
+}
+
+@inproceedings{zhao20isit,
+  Author = {Wei Zhao and Kenneth W. Shum and Shenghao Yang},
+  Title = {Optimal Locally Repairable Constacyclic Codes of Prime Power Lengths},
+  Booktitle = {Information Theory Proceedings (ISIT), 2020 IEEE International Symposium on},
+  Year = {2020}
+}
+
+@inproceedings{dong20icc,
+  Author = {Yanyan Dong and Sheng Jin and Shenghao Yang and Hoover H. F. Yin},
+  Title = {Network Utility Maximization for BATS Code Enabled Multihop Wireless Networks},
+  Booktitle = {ICC'20},
+  Year = {2020}
+}
+
+%% 2019 conferences
+
+@inproceedings{yang19isit,
+  Author = {Shenghao Yang and Jie Wang and Yanyan Dong and Yiheng Zhang},
+  Title = {On the Capacity Scalability of Line Networks with Buffer Size Constraints},
+  Booktitle = {Information Theory Proceedings (ISIT), 2019 IEEE International Symposium on},
+  Year = {2019}
+}
+
+@inproceedings{yin19isit,
+  Author = {Hoover H.F. Yin and Bin Tang and Ka Hei Ng and Shenghao Yang and Xishi (Nicholas) Wang and Qiaoqiao Zhou},
+  Title = {A Unified Adaptive Recoding Framework for Batched Network Coding},
+  Booktitle = {Information Theory Proceedings (ISIT), 2019 IEEE International Symposium on},
+  Year = {2019}
+}
+
+@inproceedings{ma19oceans,
+  Author = {Jun Ma and Shenghao Yang},
+  Title = {A Hybrid Physical-Layer Network Coding Approach for Bidirectional Underwater Acoustic Networks},
+  Booktitle = {Oceans 2019},
+  Year = 2019
+}
+
+@inproceedings{wang19wuwnet,
+author = {Wang, Jie and Ma, Jun and Yang, Jianyu and Shenghao and Yang},
+title = {Efficient Underwater Sensor Network Data Collection Employing Unmanned Ships},
+year = 2019,
+isbn = 9781450377409,
+address = {New York, NY, USA},
+booktitle = {Proceedings of WUWNET’19},
+articleno = {Article 8},
+numpages = 2,
+location = {Atlanta, GA, USA}
+}
+%publisher = {Association for Computing Machinery},
+%%url = {https://doi.org/10.1145/3366486.3366519},
+%%doi = {10.1145/3366486.3366519},
+
+%% 2018 conference
+
+
+@inproceedings{yang18wuwnet,
+  author    = {Shenghao Yang and
+               Jun Ma and
+               Xuan Huang},
+  title     = {Multi-hop underwater acoustic networks based on {BATS} codes},
+  booktitle = {Proceedings of WUWNet '18},
+  address = {Shenzhen, China},
+  year      = 2018
+}
+%   {, December 3-5, 2018},
+%  url       = {https://doi.org/10.1145/3291940.3291981},
+%  doi       = {10.1145/3291940.3291981},
+
+@inproceedings{guang18isit,
+Author = {Xuan Guang and Raymond W. Yeung and Shenghao Yang and Congduan Li},
+Title = {An Enhanced Capacity Bound for Network Function Computation},
+Booktitle = {Information Theory Proceedings (ISIT), 2018 IEEE International Symposium on},
+Year = {2018}
+}
+
+@inproceedings{wang18isit,
+Author = {Jie Wang and Shenghao Yang and Congduan Li},
+Title = {On the Tightness of a Cut-Set Bound on Network Function Computation},
+Booktitle = {Information Theory Proceedings (ISIT), 2018 IEEE International Symposium on},
+Year = {2018}
 }
 
 %% 2016 conference
@@ -246,7 +601,7 @@ doi={10.1109/GLOCOMW.2016.7848914},
 Year = {2016}
 }
 
-@inproceedings{xuan16computing,
+@inproceedings{guang16computing,
 Author = {Xuan Guang and Shenghao Yang and Congduan Li},
 Title = {An Improved Upper Bound on Network Function Computation Using Cut-Set Partition},
 Booktitle = {Information Theory Workshop (ITW), 2016 IEEE},
@@ -298,79 +653,83 @@ Year={2015}
 
 @inproceedings{yang14a,
 Author = {Shenghao Yang and Raymond W. Yeung and Hui Feng Cheung and Hoover H.F. Yin},
-booktitle={Communication, Control, and Computing (Allerton), 2014 52nd Annual Allerton Conference on},
-title={{BATS}: Network coding in action},
-year={2014},
-month={Oct},
-pages={1204-1211},
-doi={10.1109/ALLERTON.2014.7028592}
+booktitle={Communication, Control, and Computing (Allerton), 2014 52nd Annual Allerton Conference on}, 
+title={{BATS}: Network coding in action}, 
+year={2014}, 
+month={Oct 1-3}, 
+pages={1204-1211}, 
+doi={10.1109/ALLERTON.2014.7028592},
+address={Champaign, IL, USA}
 }
 
 @inproceedings{fu14,
-author={Ximing Fu and Zhiqing Xiao and Shenghao Yang},
-booktitle={Trust, Security and Privacy in Computing and Communications (TrustCom), 2014 IEEE 13th International Conference on},
-title={Overhead-Free In-Place Recovery Scheme for {XOR}-Based Storage Codes},
-year={2014},
-month={Sept},
-pages={552-557},
-doi={10.1109/TrustCom.2014.70}
+author={Ximing Fu and Zhiqing Xiao and Shenghao Yang}, 
+booktitle={TrustCom 2014},
+title={Overhead-Free In-Place Recovery Scheme for {XOR}-Based Storage Codes}, 
+year={2014}, 
+month={Sep 24-26}, 
+pages={552-557}, 
+doi={10.1109/TrustCom.2014.70},
+address={Beijing, China}
 }
 
 @inproceedings{yang14l,
-author={Shenghao Yang and Soung Chang Liew and Lizhao You and Yi Chen},
-booktitle={Information Theory Workshop (ITW), 2014 IEEE},
-title={Linearly-coupled fountain codes for network-coded multiple access},
-year={2014},
-month={Nov},
-pages={481-485},
-doi={10.1109/ITW.2014.6970878},
-ISSN={1662-9019}
+author={Shenghao Yang and Soung Chang Liew and Lizhao You and Yi Chen}, 
+booktitle={Information Theory Workshop (ITW), 2014 IEEE}, 
+title={Linearly-coupled fountain codes for network-coded multiple access}, 
+year={2014}, 
+month={Nov 2-5}, 
+pages={481-485}, 
+doi={10.1109/ITW.2014.6970878}, 
+ISSN={1662-9019},
+address={Hobart, Tasmania, Australia}
 }
 
 @inproceedings{yang14d,
-author={Shenghao Yang and Bin Tang},
-booktitle={Information Theory Workshop (ITW), 2014 IEEE},
-title={From {LDPC} to chunked network codes},
-year={2014},
-month={Nov},
-pages={406-410},
-doi={10.1109/ITW.2014.6970863},
-ISSN={1662-9019}
+author={Shenghao Yang and Bin Tang}, 
+booktitle={Information Theory Workshop (ITW), 2014 IEEE}, 
+title={From {LDPC} to chunked network codes}, 
+year={2014}, 
+month={Nov 2-5}, 
+pages={406-410}, 
+doi={10.1109/ITW.2014.6970863}, 
+ISSN={1662-9019},
+address={Hobart, Tasmania, Australia}
 }
 
 
 @inproceedings{li13a,
 Author = {Cheuk Ting Li and Shenghao Yang and Raymond W. Yeung},
-booktitle={Information Theory and Applications Workshop (ITA), 2013},
-title={Multi-rate sequential data transmission},
-year={2013},
-month={Feb},
-pages={1-2},
-keywords={channel coding;decoding;probability;data sequence;erasure probability;multirate sequential data transmission problem;optimal coding scheme;receivers via erasure channels;video clip streaming},
-doi={10.1109/ITA.2013.6502990}
+booktitle={Information Theory and Applications Workshop (ITA), 2013}, 
+title={Multi-rate sequential data transmission}, 
+year={2013}, 
+month={Feb 20-15}, 
+pages={1-2}, 
+doi={10.1109/ITA.2013.6502990},
+address={San Diego, CA, USA}
 }
 
 @inproceedings{li13,
 Author = {Cheuk Ting Li and Shenghao Yang and Raymond W. Yeung},
-booktitle={Information Theory Proceedings (ISIT), 2013 IEEE International Symposium on},
-title={Multi-rate sequential data transmission},
-year={2013},
-month={July 7-12},
-pages={1007-1011},
-keywords={broadcast channels;broadcast communication;channel coding;data communication;probability;data broadcast sequence;decoding;erasure channel;erasure probability;multirate sequential data transmission;optimal coding scheme;receiver;time-scale modification;video clip streaming;video playback speed;Decoding;Encoding;Multiplexing;Packet loss;Receivers;Streaming media;Multi-rate;erasure channel;streaming},
-doi={10.1109/ISIT.2013.6620378},
-ISSN={2157-8095}
+booktitle={Information Theory Proceedings (ISIT), 2013 IEEE International Symposium on}, 
+title={Multi-rate sequential data transmission}, 
+year={2013}, 
+month={July 7-12}, 
+pages={1007-1011}, 
+doi={10.1109/ISIT.2013.6620378}, 
+ISSN={2157-8095},
+address={Istanbul, Turkey}
 }
 
 @inproceedings{ng13,
-author={Tsz-Ching Ng and Shenghao Yang},
-booktitle={Network Coding (NetCod), 2013 International Symposium on},
-title={Finite-length analysis of {BATS} codes},
-year={2013},
-month={June 7-9},
-pages={1-6},
-keywords={Poisson distribution;codecs;computational complexity;decoding;BATS codes;BP decoder;LT-Raptor codes;Poisson distributed number;Poisson distribution;belief propagation decoding;computation cost;computational complexity;finite-length analysis;finite-length batched sparse codes;inactivation decoding;probability distribution;recursive formula;stopping time;Bismuth;Complexity theory;Decoding;Encoding;Error probability;Linear systems;Vectors;BATS codes;belief propagation;finite-length analysis;inactivation decoding},
+author={Tsz-Ching Ng and Shenghao Yang}, 
+booktitle={Network Coding (NetCod), 2013 International Symposium on}, 
+title={Finite-length analysis of {BATS} codes}, 
+year={2013}, 
+month={June 7-9}, 
+pages={1-6}, 
 doi={10.1109/NetCod.2013.6570815},
+address={Calgary, Canada}
 }
 
 @inproceedings{yang12sumas,
@@ -386,27 +745,25 @@ Address = {Lausanne, Switzerland},
 }
 
 @inproceedings{siavo12avc,
-booktitle={Information Theory Proceedings (ISIT), 2012 IEEE International Symposium on},
-title={Non-coherent network coding: An arbitrarily varying channel approach},
-year={2012},
-month={July 1-6},
-pages={1672-1676},
-keywords={channel coding;linear codes;network coding;probability;random codes;AVC approach;PAVC;arbitrarily varying channel approach;average error probability criterion;deterministic code capacity;finite field;matrix channel;noncoherent network coding;noncoherent transmission;noncoherent transmission capacity;partially arbitrarily varying channel;probability distribution;randomized code capacity;randomized linear network coding;subspace coding;time-slot;transfer matrix;Capacity planning;Encoding;Error probability;Network coding;Probabilistic logic;Receivers},
-doi={10.1109/ISIT.2012.6283561},
+booktitle={Information Theory Proceedings (ISIT), 2012 IEEE International Symposium on}, 
+title={Non-coherent network coding: An arbitrarily varying channel approach}, 
+year={2012}, 
+month={July 1-6}, 
+pages={1672-1676}, 
+doi={10.1109/ISIT.2012.6283561}, 
 ISSN={2157-8095},
 Address = {Cambridge, MA, USA},
 Author = {Mahdi Jafari Siavoshani and Shenghao Yang and Raymond W. Yeung}
 }
 
 @inproceedings{bin12expander,
-author={Bin Tang and Shenghao Yang and Yitong Yin and Baoliu Ye and Sanglu Lu},
-booktitle={Information Theory Proceedings (ISIT), 2012 IEEE International Symposium on},
-title={Expander graph based overlapped chunked codes},
-year={2012},
-month={July 1-6},
-pages={2451-2455},
-keywords={computational complexity;graph theory;network coding;chunk size;computational complexities;computational constraints;expander graph based overlapped chunked codes;expander graphs;min-cut capacity;network devices;nonoverlapped chunked codes;random linear encoding operations;random linear network codes;Analytical models;Decoding;Educational institutions;Encoding;Graph theory;Network coding;Scheduling},
-doi={10.1109/ISIT.2012.6283956},
+author={Bin Tang and Shenghao Yang and Yitong Yin and Baoliu Ye and Sanglu Lu}, 
+booktitle={Information Theory Proceedings (ISIT), 2012 IEEE International Symposium on}, 
+title={Expander graph based overlapped chunked codes}, 
+year={2012}, 
+month={July 1-6}, 
+pages={2451-2455}, 
+doi={10.1109/ISIT.2012.6283956}, 
 ISSN={2157-8095},
 Address = {Cambridge, MA, USA}
 }
@@ -423,16 +780,27 @@ Address = {Cambridge, MA, USA}
 
 
 @inproceedings{gohari11isit1,
-booktitle={Information Theory Proceedings (ISIT), 2011 IEEE International Symposium on},
-title={Beyond the cut-set bound: Uncertainty computations in network coding with correlated sources},
-year={2011},
-pages={598-602},
-keywords={network coding;statistical distributions;bounding technique;correlated random variables;cut-set bound;network architecture;network coding;network communication protocols;statistical joint distribution;Equations;Joints;Network coding;Random variables;Source coding;Uncertainty},
-doi={10.1109/ISIT.2011.6034199},
+booktitle={Information Theory Proceedings (ISIT), 2011 IEEE International Symposium on}, 
+title={Beyond the cut-set bound: Uncertainty computations in network coding with correlated sources}, 
+year={2011}, 
+pages={598-602}, 
+doi={10.1109/ISIT.2011.6034199}, 
 ISSN={2157-8095},
 Address = {Saint Petersburg, Russia},
 Author = {Amin A. Gohari and Shenghao Yang and Sidharth Jaggi},
 Month = {July 31-Aug. 5}
+}
+
+@inproceedings{yang11ac,
+booktitle={Information Theory Proceedings (ISIT), 2011 IEEE International Symposium on}, 
+title={Coding for a network coded fountain}, 
+year={2011}, 
+pages={2647-2651}, 
+doi={10.1109/ISIT.2011.6034050}, 
+ISSN={2157-8095},
+Address = {Saint Petersburg, Russia},
+Author = {Shenghao Yang and Raymond W. Yeung},
+Month = {July 31 - Aug. 5},
 }
 
 @inproceedings{ngai07itw,
@@ -492,27 +860,12 @@ Address = {Austin, USA}
 }
 
 
-@inproceedings{yang11ac,
-booktitle={Information Theory Proceedings (ISIT), 2011 IEEE International Symposium on},
-title={Coding for a network coded fountain},
-year={2011},
-pages={2647-2651},
-keywords={communication complexity;decoding;linear codes;network coding;telecommunication channels;BATS code;batched sparse code;communication networks;computation capability;encoding-decoding complexity;fountain codes;intermediate network nodes;linear network coding;linear operator channel;packet transmission;Complexity theory;Decoding;Encoding;Generators;Network coding;Optimization;Peer to peer computing},
-doi={10.1109/ISIT.2011.6034050},
-ISSN={2157-8095},
-Address = {Saint Petersburg, Russia},
-Author = {Shenghao Yang and Raymond W. Yeung},
-Month = {July 31 - Aug. 5},
-}
-
-
 @inproceedings{refined,
-booktitle={Information Theory for Wireless Networks, 2007 IEEE Information Theory Workshop on},
-title={Refined Coding Bounds for Network Error Correction},
-year={2007},
-month={July},
-pages={1-5},
-keywords={error correction codes;Gilbert-Varshamov bound;Hamming bound;Singleton bound;linear network code;local encoding kernels;network error correction coding;refined coding bounds;Block codes;Decoding;Encoding;Error correction;Error correction codes;Hamming distance;Hamming weight;Kernel;Network coding;Pattern matching;Gilbert-Varshamov bound;Network error correction coding;Singleton bound;network Hamming weight},
+title={Refined Coding Bounds for Network Error Correction}, 
+year={2007}, 
+month={July}, 
+pages={1-5}, 
+keywords={error correction codes;Gilbert-Varshamov bound;Hamming bound;Singleton bound;linear network code;local encoding kernels;network error correction coding;refined coding bounds;Block codes;Decoding;Encoding;Error correction;Error correction codes;Hamming distance;Hamming weight;Kernel;Network coding;Pattern matching;Gilbert-Varshamov bound;Network error correction coding;Singleton bound;network Hamming weight}, 
 doi={10.1109/ITWITWN.2007.4318046},
 Address = {Bergen, Norway},
 Author = {Shenghao Yang and Raymond W. Yeung},
@@ -554,27 +907,25 @@ Author = {Shenghao Yang and Chi Kin Ngai and Raymond W. Yeung}
 }
 
 @inproceedings{yang04a,
-author={Shenghao Yang and Yuping Zhao},
-booktitle={Communications, 2004 and the 5th International Symposium on Multi-Dimensional Mobile Communications Proceedings. The 2004 Joint Conference of the 10th Asia-Pacific Conference on},
-title={A new transmit diversity analysis for noncoherent space-time modulation},
-year={2004},
-month={Aug},
-volume={1},
-pages={39-42 vol.1},
-keywords={Rayleigh channels;antenna arrays;channel capacity;diversity reception;modulation;radio links;statistical analysis;transmitting antennas;Rayleigh flat-fading channel;channel capacity;diversity gain measurement;multiple-antenna communication link;noncoherent space-time modulation;space-time signal;statistics method;transmit diversity analysis;Channel capacity;Channel estimation;Diversity methods;Fading;Gain measurement;Mobile antennas;Power measurement;Rayleigh channels;Receiving antennas;Statistics},
+author={Shenghao Yang and Yuping Zhao}, 
+booktitle={in Proceedings of The 2004 Joint Conference of the 10th Asia-Pacific Conference onCommunications}, 
+title={A new transmit diversity analysis for noncoherent space-time modulation}, 
+year={2004}, 
+month={Aug}, 
+volume={1}, 
+pages={39-42 vol.1}, 
 doi={10.1109/APCC.2004.1391647},
 Address = {Beijing, China}
 }
 
 @inproceedings{yang04b,
-author={Shenghao Yang and Yuping Zhao},
-booktitle={Communications, 2004 and the 5th International Symposium on Multi-Dimensional Mobile Communications Proceedings. The 2004 Joint Conference of the 10th Asia-Pacific Conference on},
-title={Channel estimation method for 802.11a WLAN with multiple-antenna},
-year={2004},
-month={Aug},
-volume={1},
-pages={297-300 vol.1},
-keywords={MIMO systems;OFDM modulation;antenna arrays;channel estimation;frequency-domain analysis;maximum likelihood estimation;receiving antennas;transmitting antennas;wireless LAN;802.11a WLAN;MIMO system;OFDM system;frequency domain channel estimation method;multiple input multiple output;multiple receive antennas;multiple transmit antennas;orthogonal frequency division multiplexing;wireless local area network;Channel estimation;Fading;Frequency domain analysis;Frequency estimation;MIMO;Mathematics;OFDM;Receiving antennas;Wide area networks;Wireless LAN},
+author={Shenghao Yang and Yuping Zhao}, 
+booktitle={in Proceedings of The 2004 Joint Conference of the 10th Asia-Pacific Conference onCommunications}, 
+title={Channel estimation method for 802.11a WLAN with multiple-antenna}, 
+year={2004}, 
+month={Aug}, 
+volume={1}, 
+pages={297-300 vol.1}, 
 doi={10.1109/APCC.2004.1391701},
 Address = {Beijing, China}
 }
@@ -604,7 +955,7 @@ Address = {Cario, Egypt}
 @patent{subsetcoding,
 	Author = {Shenghao Yang and Raymond W. Yeung},
 	Nationality = {US},
-	Number = {US 8,693,501},
+	Number = {granted US 8,693,501},
 	Title = {Subset coding for communication systems},
 	Year = {2014},
   Url = {http://www.google.com/patents/US20130308719}
@@ -613,8 +964,73 @@ Address = {Cario, Egypt}
 @patent{subspacecoding,
 	Author = {Shenghao Yang},
 	Nationality = {US},
-	Number = {US 8,995,464},
+	Number = {granted US 8,995,464},
 	Title = {Superposition Coding for Network Communication},
 	Year = {2015},
   Url = {http://www.google.com/patents/US20130308719}
+}
+
+@patent{encodingsubset,
+	Author = {Shenghao Yang and Raymond W. Yeung},
+	Nationality = {China},
+	Number = {granted CN103250463},
+	Title = {Encoding a subset of the communication system},
+	Year = {2016},
+}
+
+@patent{fft3780,
+    Author = {Shenghao Yang and Li Zou and Xiao Huang},
+    Nationality = {China},
+    Number = {granted CN1909529},
+    Year = {2006},
+    Title = {3780-point discrete fourier transformation processor}
+}
+
+
+@patent{xor20sribd,
+   Author = {Ximing Fu and Yuanxin Guo and Shenghao Yang},
+    Nationality = {China},
+    Number = {app. CN111447044A},
+    Year = {2020},
+    Title = {Distributed storage method and transmission decoding method}
+}
+
+@patent{xor20sribd2,
+   Author = {Ximing Fu and Shenghao Yang},
+    Nationality = {China},
+    Number = {app. CN112532252A},
+    Year = {2020},
+    Title = {Encoding method, decoding method, electronic device, and storage medium}
+}
+
+@patent{xor21cuhk,
+   Author = {Ximing Fu and Yiheng Zhang and Shenghao Yang},
+    Nationality = {China},
+    Number = {app. CN113541863A},
+    Year = {2021},
+    Title = {Data encoding method, data decoding method, electronic device, and storage medium}
+}
+
+@patent{underwater19cusz,
+   Author = {Jun Ma and Shenghao Yang},
+    Nationality = {China},
+    Number = {granted CN110460407A},
+    Year = {2019},
+    Title = {A kind of communication means, mobile terminal and computer storage medium}
+}
+
+@patent{batch19cusz,
+    Author = {Shenghao Yang},
+    Nationality = {China},
+    Number = {granted CN110113131B},
+    Year = {2019},
+    Title = {Network communication method and system based on batch coding}
+}
+
+@patent{batch18cusz,
+    Author = {Shenghao Yang},
+    Nationality = {China},
+    Number = {granted CN109347604B},
+    Year = {2018},
+    Title = {Multi-hop network communication method and system based on batched sparse codes}
 }
