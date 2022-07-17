@@ -8,16 +8,17 @@ layout: home
 {% if site.contacts.research %}
 - Vice Director of the Smart City, Transportation and Logistics Lab,   [{{ site.contacts.research.affiliation }}]({{ site.contacts.research.web }}) (SRIBD){% endif %}{% endif %}
 
+Read more about me in the [bio page][bio_page]
+
 # Research
 
-My research interest is *information*, which I think is something fundamental in the universe. Some topics of particular focus in recent years: 
+My research interest is about *information*, which I think is something fundamental in nature. Some topics of particular focus in recent years: 
 * **Network coding**, **coding theory**, **information theory**
 * **Wireless networks** (including WiFi, 5G and beyond), **underwater acoustic networks**
 * **Distributed storage and computation** 
 * **V2X autonomous driving**
-* **Quantum information**
 
-See more in the [Research Page][research_page].
+See more in the [research page][research_page].
 
 
 # Hiring
@@ -31,3 +32,4 @@ The above positions available year-round. Please contact me for more information
 
 
 [research_page]:{{ site.baseurl }}{% link research/index.md %}
+[bio_page]:{{ site.baseurl }}{% link bio/index.md %}
