@@ -8,11 +8,9 @@ title_s: Research
 
 ### Low Complexity Network Coding
 
-Followed by the invention of BATS code {% cite yang11ac %}, 
+Followed by the invention of BATS code {% cite yang11ac %}, extensive researches on the design, analysis and implementation of BATS codes have been done. See [a webpage about BATS codes][bats_page].
 
-[A webpage about BATS codes][bats_page]
-
-### bbb
+### bbb implementation
 
 ## Publications
 
