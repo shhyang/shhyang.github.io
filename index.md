@@ -16,7 +16,7 @@ My research interest is about *information*, which I think is something fundamen
 * **Network coding**, **coding theory**, **information theory**
 * **Wireless networks** (including WiFi, 5G and beyond), **underwater acoustic networks**
 * **Distributed storage and computation** 
-* **V2X autonomous driving**
+* network applications, e.g., **V2X autonomous driving**
 
 See more in the [research page][research_page].
 

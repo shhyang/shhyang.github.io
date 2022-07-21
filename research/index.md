@@ -13,7 +13,7 @@ Some research topics that I have been worked on are introduced here.
 Followed by the invention of the BATS code {% cite yang11ac %}, extensive researches on the design, analysis and implementation of the BATS code have been done (see [a webpage about BATS codes][bats_page]). The BATS code has been used in real-world and has the potential to be widely deployed in wireless networks, for example, in WiFi mesh, 5G IAB, underwater acoustic networks and real-time content disitribution in the Internet. 
 
 The outer-code-inner-code structure of the BATS code provides a general frame for designing network communication protocols that can potentially improve the performance in terms of throughput, latency and stability {% cite yang2022comm %}. Our team is conducting further researches under this framework, including
-- flow control, routing and congeston control
+- flow and congestion control, routing
 - media access control, power and rate control
 - physical communications from the end-to-end perspective
 
@@ -21,7 +21,9 @@ These researches are collaborating with the [Institute of Network Coding]({{ sit
 
 ### Wireless networking propagation delay
 
-From the research in both underwater acoustic communications and the time-domain interference alignment, significant network throughput gain can be obtained by taking the signal propagation delay into  consideration. Our recent works give a systematic theoretical study of the using of propagation delays, including an explicit characterization of the scheduling rate region with propagation delays and the continuity properties of the scheduling rate region \cite{jma21scheduling,fan22isit,ma19oceans,}. With higher and higher bandwidth being used, it is becoming feasible to benefit from the signal propagation delay in the terrestrial wireless communications.
+From the research in both underwater acoustic communications and the time-domain interference alignment, significant network throughput gain can be obtained by taking the signal propagation delay into consideration. Our recent works give a systematic theoretical study of the using of propagation delays, including an explicit characterization of the scheduling rate region with propagation delays and the continuity properties of the scheduling rate region {% cite jma21scheduling fan22isit %}. 
+
+With the higher and higher bandwidth being used in the terrestirial wireless communications, it is becoming feasible to design a physical communicaiton framelength shorter than the typical signal propagation delay. However, towards achieving benefit from the signal propagation delay in the future of wireless networking, a large range of researches are desired.
 
 ### Network computation
 
