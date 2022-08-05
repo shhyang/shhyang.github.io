@@ -19,27 +19,19 @@ The outer-code-inner-code structure of the BATS code provides a general frame fo
 
 These researches are collaborating with the [Institute of Network Coding]({{ site.data.links.inc }}) at CUHK and [n-hop technologies](https://n-hop.com), a startup company developing networking technolgies using BATS codes.
 
-### Wireless networking propagation delay
+### Wireless networking with propagation delay
 
-From the research in both underwater acoustic communications and the time-domain interference alignment, significant network throughput gain can be obtained by taking the signal propagation delay into consideration. Our recent works give a systematic theoretical study of the using of propagation delays, including an explicit characterization of the scheduling rate region with propagation delays and the continuity properties of the scheduling rate region {% cite jma21scheduling fan22isit %}. 
+Signal propagation delay has been either ignored or treated as an unfavored factor in practical wireless communications, but can significantly improve the throughput of wireless communication networks as a new dimension for scheduling media access. Our recent works are giving a systematic theoretical study of this promising approach. We derived an explicit characterization of the scheduling rate region with propagation delays and studied the continuity properties of the region {% cite jma21scheduling fan22isit %}. 
 
-With the higher and higher bandwidth being used in the terrestirial wireless communications, it is becoming feasible to design a physical communicaiton framelength shorter than the typical signal propagation delay. However, towards achieving benefit from the signal propagation delay in the future of wireless networking, a large range of researches are desired.
-
-### Network computation
-
-This topic studies the evaluation of a function at a destination node with the function inputs generated at multiple source nodes that are different to the destination node. Examples have shown the function computation rate gain of network coding for this distributed computing problem. Our works studied the upper bound on the function computation capacity~\cite{guang19,huang18,guang18isit,wang18isit,guang16computing,huang15} and motivates some further researches in this direction.
+With the higher and higher bandwidth being used in the terrestirial wireless communications, it is becoming feasible to design a physical communicaiton framelength shorter than the typical signal propagation delay. However, towards achieving the benefit from the signal propagation delay in the future of wireless networking, a large range of researches are desired.
 
 ### Shift-XOR codes
 
-Shift-XOR codes can be encoded by (non-cyclic) shift and XOR operations and decoded by a successive cancellation algorithm with almost the same computation cost as encoding. 
-
-We proposed new designs of shift-XOR codes that can be used to construct both storage codes and network codes \cite{fu20it}, \cite{xfu21isit,fu15storage,fu14,}, \cite{xor21cuhk,xor20sribd,xor20sribd2} to gain the low computation cost compared with the corresponding codes based on finite field operations. A general theory of using the shift and XOR operations for coding design is under developing~\cite{yzhang21isit,xchen21isit}, which can potentially push the application of shift-XOR codes to more scenarios.
+Though finite fields are used in most of the existing coding designs, it is not always feasible or favorable due to the high computation cost. Several existing codes have demonstrated the potential of using (non-cyclic) shift and XOR operations to design codes with extremely low computation cost. Our recent works proposed new designs of shift-XOR codes that can achieve a similar or even better performance than the corresponding finite field codes {% cite fu20it %}. A general theory of shift-XOR codes is under development, which can generate a new playground for coding design {% cite yzhang21isit xchen21isit %}. 
 
 ### Finite-length codes
 
-For a binary symmetric channel with the maximum likelihood decoding, the problem of the optimal code with fixed blocklength and codebook size is in general open except for special cases. In a recent work, we solve the problem for the codes of four codewords and blocklength up to $8$ by analysis and up to $300$ by combining analysis and computer evaluations~\cite{dong20}. Our approach has the potential to be extended to codes of a larger codebook size.
-
-### Network security
+For a binary symmetric channel with the maximum likelihood decoding, the problem of the optimal code with fixed blocklength and codebook size is in general open except for special cases. In a recent work, we solve the problem for the codes of four codewords and blocklength up to 8 by analysis and up to 300 by combining analysis and computer evaluations {% cite dong20 %}. Our approach has the potential to be extended to codes of a larger codebook size.
 
 
 
