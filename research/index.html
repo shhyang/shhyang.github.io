@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>research</title>
-  <meta name="description" content="Overview My recent research interests include: Network coding, where we focus on the designs and implementations of wireless network protocols for Internet o...">
+  <meta name="description" content="A homepage of Shenghao Yang.">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="https://shhyang.github.io//research/">
@@ -95,35 +95,68 @@
   </header>
 
   <div class="post-content">
-    <h2 id="overview">Overview</h2>
-<p>My recent research interests include:</p>
+    <h2 id="topics">Topics</h2>
+
+<p>Some research topics that I have been worked on are introduced here.</p>
+
+<h3 id="low-complexity-network-coding">Low complexity network coding</h3>
+
+<p>Followed by the invention of the BATS code <a class="citation" href="#yang11ac">[1]</a>, extensive researches on the design, analysis and implementation of the BATS code have been done (see <a href="/research/bats/">a webpage about BATS codes</a>). The BATS code has been used in real-world and has the potential to be widely deployed in wireless networks, for example, in WiFi mesh, 5G IAB, underwater acoustic networks and real-time content disitribution in the Internet.</p>
+
+<p>The outer-code-inner-code structure of the BATS code provides a general frame for designing network communication protocols that can potentially improve the performance in terms of throughput, latency and stability <a class="citation" href="#yang2022comm">[2]</a>. Our team is conducting further researches under this framework, including</p>
 <ul>
-  <li><strong>Network coding</strong>, where we focus on the designs and implementations of wireless network protocols for Internet of Things.
-<!-- See more details in the [BATS code page][bats_page]. --></li>
-  <li><strong>Distributed storage and computation</strong>, which can be regarded as generalized network coding problems and have applications in Big Data processing.</li>
-  <li><strong>Machine learning</strong>, where we are interested in the role of information in learning.</li>
-  <li><strong>Quantum information</strong>, for which we are interested in randomness problems related to Bell’s tests.</li>
+  <li>flow and congestion control, routing</li>
+  <li>media access control, power and rate control</li>
+  <li>physical communications from the end-to-end perspective</li>
 </ul>
+
+<p>These researches are collaborating with the <a href="http://www.inc.cuhk.edu.hk">Institute of Network Coding</a> at CUHK and <a href="https://n-hop.com">n-hop technologies</a>, a startup company developing networking technolgies using BATS codes.</p>
+
+<h3 id="wireless-networking-with-propagation-delay">Wireless networking with propagation delay</h3>
+
+<p>Signal propagation delay has been either ignored or treated as an unfavored factor in practical wireless communications, but can significantly improve the throughput of wireless communication networks as a new dimension for scheduling media access. Our recent works are giving a systematic theoretical study of this promising approach. We derived an explicit characterization of the scheduling rate region with propagation delays and studied the continuity properties of the region <a class="citation" href="#jma21scheduling">[3], [4]</a>.</p>
+
+<p>With the higher and higher bandwidth being used in the terrestirial wireless communications, it is becoming feasible to design a physical communicaiton framelength shorter than the typical signal propagation delay. However, towards achieving the benefit from the signal propagation delay in the future of wireless networking, a large range of researches are desired.</p>
+
+<h3 id="shift-xor-codes">Shift-XOR codes</h3>
+
+<p>Though finite fields are used in most of the existing coding designs, it is not always feasible or favorable due to the high computation cost. Several existing codes have demonstrated the potential of using (non-cyclic) shift and XOR operations to design codes with extremely low computation cost. Our recent works proposed new designs of shift-XOR codes that can achieve a similar or even better performance than the corresponding finite field codes <a class="citation" href="#fu20it">[5]</a>. A general theory of shift-XOR codes is under development, which can generate a new playground for coding design <a class="citation" href="#yzhang21isit">[6], [7]</a>.</p>
+
+<h3 id="finite-length-codes">Finite-length codes</h3>
+
+<p>For a binary symmetric channel with the maximum likelihood decoding, the problem of the optimal code with fixed blocklength and codebook size is in general open except for special cases. In a recent work, we solve the problem for the codes of four codewords and blocklength up to 8 by analysis and up to 300 by combining analysis and computer evaluations <a class="citation" href="#dong20">[8]</a>. Our approach has the potential to be extended to codes of a larger codebook size.</p>
 
 <h2 id="publications">Publications</h2>
 
 <ul>
-  <li><a href="https://scholar.google.com.hk/citations?user=wogDSg0AAAAJ&amp;hl=en">Google Scholar page</a></li>
-  <li><a href="http://dblp.uni-trier.de/pers/hd/y/Yang:Shenghao">dblp page</a>
+  <li><a href="https://scholar.google.com.hk/citations?user=wogDSg0AAAAJ&amp;hl=en">Google Scholar</a></li>
+  <li><a href="https://dblp.uni-trier.de/pid/41/4482-1.html">dblp</a></li>
+  <li><a href="https://orcid.org/0000-0003-1987-5643">ORCID</a></li>
+</ul>
+
 <!-- - [Baidu Xueshu](http://xueshu.baidu.com/homepage/shyang) -->
-<!-- - [My publication list][publication_page] --></li>
-</ul>
+<!-- - [My publication list][publication_page] -->
 
-<h2 id="links">Links</h2>
-<ul>
-  <li><a href="/research/bats/">A webpage about BATS codes</a></li>
-  <li><a href="http://www.inc.cuhk.edu.hk">Institute of Network Coding</a> at CUHK
 <!--- [Machine Learning Reading Group](https://infolearning.github.io/) -->
-<!--- [Network Information and Coding Study Group](https://shhyang.github.io/nclab/) --></li>
-</ul>
+<!--- [Network Information and Coding Study Group](https://shhyang.github.io/nclab/) -->
 
-<!-- ### Reference
-<ol class="bibliography"></ol> -->
+<h2 id="reference">Reference</h2>
+<ol class="bibliography"><li><span id="yang11ac">S. Yang and R. W. Yeung, “Coding for a network coded fountain,” in <i>Information Theory Proceedings (ISIT), 2011 IEEE International Symposium on</i>, Saint Petersburg, Russia, 2011, pp. 2647–2651.</span>  DOI:<a href="http://dx.doi.org/10.1109/ISIT.2011.6034050">10.1109/ISIT.2011.6034050</a> 
+</li>
+<li><span id="yang2022comm">S. Yang and R. W. Yeung, “Network Communication Protocol Design from the Perspective of Batched Network Coding,” <i>IEEE Communications Magazine</i>, vol. 60, no. 1, pp. 89–93, 2022.</span>  DOI:<a href="http://dx.doi.org/10.1109/MCOM.001.21828">10.1109/MCOM.001.21828</a> 
+</li>
+<li><span id="jma21scheduling">J. Ma, Y. Liu, and S. Yang, “Rate Region of Scheduling a Wireless Network with Discrete Propagation Delays,” in <i>Infocom’21</i>.</span> 
+</li>
+<li><span id="fan22isit">Y. Fan, Y. Liu, and S. Yang, “Continuity of Link Scheduling Rate Region for Wireless Networks with Propagation Delays,” in <i>Information Theory Proceedings (ISIT), 2022 IEEE International Symposium on</i>, 2022.</span> 
+</li>
+<li><span id="fu20it">X. Fu, S. Yang, and Z. Xiao, “Decoding and Repair Schemes for Shift-XOR Regenerating Codes,” <i>IEEE Transactions on Information Theory</i>, vol. 66, no. 12, pp. 7371–7386, 2020.</span>  DOI:<a href="http://dx.doi.org/10.1109/TIT.2020.3019168">10.1109/TIT.2020.3019168</a> 
+</li>
+<li><span id="yzhang21isit">Y. Zhang, X. Fu, X. Wu, S. Yang, and K. W. Shum, “Solving Monoshift Systems and Applications in Random Coding,” in <i>Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on</i>, 2021.</span> 
+</li>
+<li><span id="xchen21isit">X. Cheng, X. Fu, Y. Guo, K. W. Shum, and S. Yang, “Successively Solvable Shift-Add Systems — a Graphical Characterization,” in <i>Information Theory Proceedings (ISIT), 2021 IEEE International Symposium on</i>, 2021.</span> 
+</li>
+<li><span id="dong20">Y. Dong and S. Yang, “On Optimal Finite-length Binary Codes of Four Codewords for Binary Symmetric Channels,” in <i>ISITA’20</i>.</span> 
+</li></ol>
 
 
   </div>
