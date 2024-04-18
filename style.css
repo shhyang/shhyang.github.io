@@ -6,23 +6,21 @@ body { font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color:
 }
 
 
-#table-of-contents { float: right; line-height: 56px; }
-
-#table-of-contents li{
-    list-style:none;
-    margin-left: 0px;
+#table-of-contents {
+/*    float: right;
+    line-height: 20px;
+    background:#e3e3e3*/
 }
 
-#table-of-contents li.current{
-    background:#e3e3e3}
-
-#table-of-contents li.current a:hover{
-    background:#d6d6d6}
+#table-of-contents li{
+    list-style: none;
+    margin-left: 0px;
+}
 
 #table-of-contents h2{
     z-index:100;
     background-color:#e1e1e1;
-    text-align:center;
+    text-align:left;
     padding:0.01em;
     display:block;
     font-size: 100%;
@@ -30,17 +28,17 @@ body { font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color:
 
 #table-of-contents li ul li a{
     margin-bottom:0;
-    color:#a3a3a3;
+    color:#333333;
     font-weight:normal}
 
 #table-of-contents a{
     display:inline-block;
-    line-height:18px;
+    line-height:24px;
     padding:0.045em 0.0618em;
     display:block;
     position:relative;
     font-size:90%;
-    color:#a3a3a3;
+    color:#333333;
     direction: ltr;
 }
 
@@ -53,20 +51,12 @@ body { font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color:
     #table-of-contents {
 	position: absolute;
 	top: 9px;
-	right: 15px;
+	right: 5px;
 	background-color: #fdfdfd;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
-	text-align: right;
+	text-align: left;
 	display: inline-block;
-    }
-
-    #table-of-contents h2 a {
-        display: block;
-    }
-
-    #table-of-contents:target {
-        display: block;
     }
 } 
 
