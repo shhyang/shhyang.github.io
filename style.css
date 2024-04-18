@@ -1,6 +1,76 @@
 /** Basic styling */
 body { font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
 
+#postamble .creator,#postamble .validation {
+    display:none;
+}
+
+
+#table-of-contents { float: right; line-height: 56px; }
+
+#table-of-contents li{
+    list-style:none;
+    margin-left: 0px;
+}
+
+#table-of-contents li.current{
+    background:#e3e3e3}
+
+#table-of-contents li.current a:hover{
+    background:#d6d6d6}
+
+#table-of-contents h2{
+    z-index:100;
+    background-color:#e1e1e1;
+    text-align:center;
+    padding:0.01em;
+    display:block;
+    font-size: 100%;
+    margin-bottom:0.01em}
+
+#table-of-contents li ul li a{
+    margin-bottom:0;
+    color:#a3a3a3;
+    font-weight:normal}
+
+#table-of-contents a{
+    display:inline-block;
+    line-height:18px;
+    padding:0.045em 0.0618em;
+    display:block;
+    position:relative;
+    font-size:90%;
+    color:#a3a3a3;
+    direction: ltr;
+}
+
+#table-of-contents a:hover{
+    color: #ffffff !important;
+    background-color:#4e4a4a;
+    cursor:pointer}
+
+@media screen and (max-width: 600px) {
+    #table-of-contents {
+	position: absolute;
+	top: 9px;
+	right: 15px;
+	background-color: #fdfdfd;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	text-align: right;
+	display: inline-block;
+    }
+
+    #table-of-contents h2 a {
+        display: block;
+    }
+
+    #table-of-contents:target {
+        display: block;
+    }
+} 
+
+
 /* content from default */
 #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
