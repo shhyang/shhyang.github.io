@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-17 Thu 11:21 -->
+<!-- 2024-10-25 Fri 01:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Coding-based Network Communication</title>
@@ -19,38 +19,36 @@ emerging applications with low-latency and high-throughput
 communication demands.
 </p>
 
-<div id="outline-container-orga4451e5" class="outline-2">
-<h2 id="orga4451e5">Limitations of Tranditional Network Communications</h2>
-<div class="outline-text-2" id="text-orga4451e5">
+<div id="outline-container-org799d9a8" class="outline-2">
+<h2 id="org799d9a8">Limitations of Tranditional Network Communications</h2>
+<div class="outline-text-2" id="text-org799d9a8">
 <p>
-Traditional network communication technologies, represented by TCP/IP, are primarily designed based on the following characteristics:
+Traditional network communication technologies, represented by TCP/IP, are primarily  characterized by the following main features:
 </p>
 <ul class="org-ul">
-<li>Network links are considered reliable and have stable transmission delays;</li>
-<li>End-to-end communication relies on a fixed path.</li>
+<li>For each communication, packets are transmitted on a fixed path.</li>
+<li>Retransmission is used for end-to-end reliability.</li>
+<li>End-to-end congestion control.</li>
 </ul>
 <p>
-Based on these assumptions, intermediate network nodes (such as routers and switches) only need to store and forward data packets, and can implement end-to-end congestion control.
+These features impose requirement on the network links reliability and latency. 
 </p>
-
 
 <p>
-However, existing network communication methods are far from optimal overall:
+However, such network communication methods are far from optimal in nearly all practical scenarios. 
 </p>
 <ul class="org-ul">
-<li>They rely on one or a set of predetermined paths, which prevents achieving the maximum communication rate;</li>
+<li>The use of one or a set of predetermined paths prevents achieving the maximum communication rate.</li>
 <li>The end-to-end control mechanisms respond relatively slowly to dynamic changes in the network.</li>
+<li>Even at the expense of communication rate, wireless communication struggles to simultaneously ensure high reliability and stable latency.</li>
 </ul>
-<p>
-Furthermore, even at the expense of communication rate, wireless communication struggles to simultaneously ensure high reliability and stable latency.
-</p>
 </div>
 </div>
 
 
-<div id="outline-container-org06c18d7" class="outline-2">
-<h2 id="org06c18d7">Coding-based Network Communications</h2>
-<div class="outline-text-2" id="text-org06c18d7">
+<div id="outline-container-orgc73e0b5" class="outline-2">
+<h2 id="orgc73e0b5">Coding-based Network Communications</h2>
+<div class="outline-text-2" id="text-orgc73e0b5">
 <p>
 To fundamentally address the issues in network communication, it is necessary to appropriately adopt coding techniques, primarily including erasure codes and network coding.
 </p>
@@ -77,9 +75,9 @@ Overall, coding-based network communication can offer advantages in terms of thr
 </div>
 </div>
 
-<div id="outline-container-org47f10d1" class="outline-2">
-<h2 id="org47f10d1">Our Research</h2>
-<div class="outline-text-2" id="text-org47f10d1">
+<div id="outline-container-org848c0ae" class="outline-2">
+<h2 id="org848c0ae">Our Research</h2>
+<div class="outline-text-2" id="text-org848c0ae">
 <p>
 Our research towards practically ready coding-based network communication
 solutions mainly focuses on the following directions:
@@ -91,9 +89,9 @@ solutions mainly focuses on the following directions:
 </ul>
 </div>
 
-<div id="outline-container-orga139e18" class="outline-3">
-<h3 id="orga139e18">Efficient Coding for Network Communications</h3>
-<div class="outline-text-3" id="text-orga139e18">
+<div id="outline-container-org4359c78" class="outline-3">
+<h3 id="org4359c78">Efficient Coding for Network Communications</h3>
+<div class="outline-text-3" id="text-org4359c78">
 <p>
 Random linear network coding (RLNC) is a distributed approach for linear network coding where the linear combination coefficients are chosen randomly. This approach ensures a high success probability when the space for coefficients is large. RLNC can achieve the maximum multicast flow even with lossy links, obviating the need for link-level retransmissions or erasure coding. However, when the batch of packets for network coding is large, RLNC incurs high overhead due to the coefficient vectors and high computational costs for encoding and decoding. This has prompted research into reducing these issues, such as coefficient vector compression and sparse encoding. 
 </p>
@@ -101,7 +99,7 @@ Random linear network coding (RLNC) is a distributed approach for linear network
 
 <p>
 Batched Network Coding (BNC) combines principles from both end-to-end erasure coding and network coding to provide a comprehensive coding framework for network communications.
-BNC consists of an outer code and an inner code (refer to Figure <a href="#orgc76a10b">1</a>). The outer code, which is an extension of erasure coding, generates coded packets in batches. The inner code facilitates network coding for packets within the same batch, also called recoding. Unlike linear network coding and RLNC, BNC does not necessitate that each batch is decodable independently, thereby alleviating the need for a large coefficient space. By using a small batch size, BNC can efficiently reduce both the coefficient vector overhead and the computation cost. In the current research on BNC,
+BNC consists of an outer code and an inner code (refer to Figure <a href="#org86d14d7">1</a>). The outer code, which is an extension of erasure coding, generates coded packets in batches. The inner code facilitates network coding for packets within the same batch, also called recoding. Unlike linear network coding and RLNC, BNC does not necessitate that each batch is decodable independently, thereby alleviating the need for a large coefficient space. By using a small batch size, BNC can efficiently reduce both the coefficient vector overhead and the computation cost. In the current research on BNC,
 </p>
 <ul class="org-ul">
 <li>Both fountain codes and LDPC codes can be extended as the outer code. In particular, when the outer code is a matrix-extended fountain code, the batched network code is also called a (BATched-Sparse) BATS code <a href="#citeproc_bib_item_1">[1]</a>.</li>
@@ -109,7 +107,7 @@ BNC consists of an outer code and an inner code (refer to Figure <a href="#orgc7
 </ul>
 
 
-<div id="orgc76a10b" class="figure">
+<div id="org86d14d7" class="figure">
 <p><img src="./img/bats-2.png" alt="bats-2.png" width="500px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Dual layer coding structure of BNC</p>
@@ -118,9 +116,9 @@ BNC consists of an outer code and an inner code (refer to Figure <a href="#orgc7
 </div>
 </div>
 
-<div id="outline-container-org44f46a2" class="outline-2">
-<h2 id="org44f46a2">References</h2>
-<div class="outline-text-2" id="text-org44f46a2">
+<div id="outline-container-orgd0f9f14" class="outline-2">
+<h2 id="orgd0f9f14">References</h2>
+<div class="outline-text-2" id="text-orgd0f9f14">
 <style>.csl-left-margin{float: left; padding-right: 0em;}
  .csl-right-inline{margin: 0 0 0 1em;}</style><div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>
@@ -135,7 +133,7 @@ BNC consists of an outer code and an inner code (refer to Figure <a href="#orgc7
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Shenghao Yang</p>
-<p class="date">Created: 2024-10-17 Thu 11:21</p>
+<p class="date">Created: 2024-10-25 Fri 01:05</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

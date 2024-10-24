@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-17 Thu 11:15 -->
+<!-- 2024-10-25 Fri 01:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Wireless Network Scheduling with Propagation Delay</title>
@@ -47,17 +47,17 @@
 <h1 class="title">Wireless Network Scheduling with Propagation Delay</h1>
 
 
-<div id="outline-container-org08b2322" class="outline-2">
-<h2 id="org08b2322">Wireless Communication Scheduling Approaches</h2>
-<div class="outline-text-2" id="text-org08b2322">
+<div id="outline-container-org29e22c1" class="outline-2">
+<h2 id="org29e22c1">Wireless Communication Scheduling Approaches</h2>
+<div class="outline-text-2" id="text-org29e22c1">
 <p>
 Wireless communication resources are shared among multiple users, requiring reasonable scheduling to avoid interference. From the research in both underwater acoustic communications and the time-domain interference alignment, significant network throughput gain can be obtained by taking the signal propagation delay into consideration.
 </p>
 </div>
 
-<div id="outline-container-org621e76b" class="outline-3">
-<h3 id="org621e76b">Traditional Scheduling Approach</h3>
-<div class="outline-text-3" id="text-org621e76b">
+<div id="outline-container-orgc2920fc" class="outline-3">
+<h3 id="orgc2920fc">Traditional Scheduling Approach</h3>
+<div class="outline-text-3" id="text-orgc2920fc">
 <p>
 To intuitively understand the interference problem in wireless communications, we can use a round-table meeting analogy. Imagine \(2n\) people sitting around a table, each trying to communicate with the person directly opposite them. If multiple people speak simultaneously, due to mutual interference, it will be difficult for each person to hear the other person clearly. To solve this problem, a simple approach is to stipulate that only one person can speak at any given time.
 </p>
@@ -67,7 +67,7 @@ In cellular wireless communication systems, this strategy of avoiding interferen
 </p>
 
 
-<div id="org14cee0e" class="figure">
+<div id="orga5eab51" class="figure">
 <p><img src="./img/roundtable.png" alt="roundtable.png" width="300px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Illustration of a Round-Table Meeting</p>
@@ -75,9 +75,9 @@ In cellular wireless communication systems, this strategy of avoiding interferen
 </div>
 </div>
 
-<div id="outline-container-org449372e" class="outline-3">
-<h3 id="org449372e">Scheduling Approach Considering Delays</h3>
-<div class="outline-text-3" id="text-org449372e">
+<div id="outline-container-org6533983" class="outline-3">
+<h3 id="org6533983">Scheduling Approach Considering Delays</h3>
+<div class="outline-text-3" id="text-org6533983">
 <p>
 If we consider the propagation delay of sound waves, theoretically, there is a method that allows two people to speak simultaneously without causing interference. Assume the propagation delay between two individuals is \(T\). We can divide time into a series of consecutive intervals, each of length \(T\), and arrange for these two individuals to speak during odd intervals and listen during even intervals. In this way, they can both hear each other without interference.
 </p>
@@ -87,7 +87,7 @@ This method can also be extended to the case of \(2n\) individuals. To simplify 
 </p>
 
 
-<div id="org74b8a75" class="figure">
+<div id="org6504e07" class="figure">
 <p><img src="./img/twopair.png" alt="twopair.png" width="500px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Odd-Even Scheduling. A1 and A2 form a pair, B1 and B2 form another pair.</p>
@@ -96,9 +96,9 @@ This method can also be extended to the case of \(2n\) individuals. To simplify 
 </div>
 </div>
 
-<div id="outline-container-orgf89d041" class="outline-2">
-<h2 id="orgf89d041">Theoretical Progress</h2>
-<div class="outline-text-2" id="text-orgf89d041">
+<div id="outline-container-orgd6c2955" class="outline-2">
+<h2 id="orgd6c2955">Theoretical Progress</h2>
+<div class="outline-text-2" id="text-orgd6c2955">
 <p>
 For general wireless communication networks, propagation delays are not as special as assumed in the above example, so the odd-even scheduling cannot be used to avoid interference. Designing the optimal network scheduling is an open problem for more than a decade.
 </p>
@@ -110,7 +110,7 @@ In our recent papers <a href="#citeproc_bib_item_1">[1]</a>, <a href="#citeproc_
 
 
 
-<div id="org3ee56b1" class="figure">
+<div id="org20e2f88" class="figure">
 <p><img src="./img/periodicgraph.png" alt="periodicgraph.png" width="500px" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Periodic Graph Extended from the Interference Description Graph</p>
@@ -118,9 +118,9 @@ In our recent papers <a href="#citeproc_bib_item_1">[1]</a>, <a href="#citeproc_
 </div>
 </div>
 
-<div id="outline-container-org1ecc499" class="outline-2">
-<h2 id="org1ecc499">Application Prospects</h2>
-<div class="outline-text-2" id="text-org1ecc499">
+<div id="outline-container-org6997963" class="outline-2">
+<h2 id="org6997963">Application Prospects</h2>
+<div class="outline-text-2" id="text-org6997963">
 <p>
 Initially, the consideration of delays was mainly focused on underwater acoustic wireless communications. This is because the propagation delay of sound waves is relatively large. For traditional terrestrial wireless communications like 4G, the typical propagation delay of electromagnetic signals is relatively small compared to the symbol duration. Therefore, in scheduling, delays are usually regarded as an adverse factor that requires additional guard intervals to address. However, as wireless communications adopt higher and higher frequency spectra, symbol durations become shorter than typical propagation delays, making delay a beneficial factor. 
 </p>
@@ -188,9 +188,9 @@ As shown in the table below, if the OFDM symbol length is small relative to the 
 </div>
 </div>
 
-<div id="outline-container-org578e917" class="outline-2">
-<h2 id="org578e917">References</h2>
-<div class="outline-text-2" id="text-org578e917">
+<div id="outline-container-orgaf73f80" class="outline-2">
+<h2 id="orgaf73f80">References</h2>
+<div class="outline-text-2" id="text-orgaf73f80">
 <style>.csl-left-margin{float: left; padding-right: 0em;}
  .csl-right-inline{margin: 0 0 0 1em;}</style><div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>
@@ -208,7 +208,7 @@ As shown in the table below, if the OFDM symbol length is small relative to the 
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Shenghao Yang</p>
-<p class="date">Created: 2024-10-17 Thu 11:15</p>
+<p class="date">Created: 2024-10-25 Fri 01:05</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
